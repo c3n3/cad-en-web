@@ -30,4 +30,6 @@ The ribbon's **Features** tab:
 
 What changed in each release:
 
+- [0.1.2 Alpha](releases/0.1.2a1.md) — the Coincident constraint fix.
+- [0.1.1 Alpha](releases/0.1.1a1.md) — showcase video fixes.
 - [0.1.0 Alpha](releases/0.1.0a1.md) — the first documented release.
