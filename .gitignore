@@ -1,0 +1,6 @@
+node_modules/
+site/.vitepress/cache/
+site/.vitepress/dist/
+
+# (site/docs, site/public/brand and site/.vitepress/generated are written by
+# scripts/sync-docs.mjs from pycad-en -- and committed: setup_release0.md.)

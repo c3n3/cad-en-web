@@ -1,0 +1,267 @@
+[
+  {
+    "text": "Overview",
+    "link": "/docs/"
+  },
+  {
+    "text": "Tools",
+    "items": [
+      {
+        "text": "Sketch basics",
+        "link": "/docs/bags/sketch_basics",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "New Sketch",
+            "link": "/docs/tools/new_sketch"
+          },
+          {
+            "text": "Tag selector",
+            "link": "/docs/tools/tag_selector"
+          },
+          {
+            "text": "Select",
+            "link": "/docs/tools/select"
+          },
+          {
+            "text": "Dimension",
+            "link": "/docs/tools/dimension"
+          }
+        ]
+      },
+      {
+        "text": "Sketch drawing",
+        "link": "/docs/bags/sketch_drawing",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Point",
+            "link": "/docs/tools/point"
+          },
+          {
+            "text": "Line",
+            "link": "/docs/tools/line"
+          },
+          {
+            "text": "Circle",
+            "link": "/docs/tools/circle"
+          },
+          {
+            "text": "Arc",
+            "link": "/docs/tools/arc"
+          },
+          {
+            "text": "Ellipse",
+            "link": "/docs/tools/ellipse"
+          },
+          {
+            "text": "Rectangle",
+            "link": "/docs/tools/rectangle"
+          },
+          {
+            "text": "Slot",
+            "link": "/docs/tools/slot"
+          },
+          {
+            "text": "Polygon",
+            "link": "/docs/tools/polygon"
+          },
+          {
+            "text": "Trim",
+            "link": "/docs/tools/trim"
+          },
+          {
+            "text": "Spline",
+            "link": "/docs/tools/spline"
+          },
+          {
+            "text": "Text",
+            "link": "/docs/tools/text"
+          }
+        ]
+      },
+      {
+        "text": "Sketch pattern",
+        "link": "/docs/bags/sketch_pattern",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Offset",
+            "link": "/docs/tools/offset"
+          },
+          {
+            "text": "Mirror",
+            "link": "/docs/tools/mirror"
+          },
+          {
+            "text": "Rotate",
+            "link": "/docs/tools/rotate"
+          },
+          {
+            "text": "Project",
+            "link": "/docs/tools/project"
+          },
+          {
+            "text": "Pattern",
+            "link": "/docs/tools/pattern"
+          }
+        ]
+      },
+      {
+        "text": "Documentation",
+        "link": "/docs/bags/documentation",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Annotation",
+            "link": "/docs/tools/annotation"
+          }
+        ]
+      },
+      {
+        "text": "3D basics",
+        "link": "/docs/bags/3d_basics",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Extrude",
+            "link": "/docs/tools/extrude"
+          },
+          {
+            "text": "Cut Extrude",
+            "link": "/docs/tools/cut_extrude"
+          },
+          {
+            "text": "Fillet",
+            "link": "/docs/tools/fillet"
+          },
+          {
+            "text": "Chamfer",
+            "link": "/docs/tools/chamfer"
+          },
+          {
+            "text": "Swept Extrude",
+            "link": "/docs/tools/swept_extrude"
+          },
+          {
+            "text": "Swept Cut",
+            "link": "/docs/tools/swept_cut"
+          },
+          {
+            "text": "Rotate Extrude",
+            "link": "/docs/tools/rotate_extrude"
+          },
+          {
+            "text": "Rotate Cut",
+            "link": "/docs/tools/rotate_cut"
+          }
+        ]
+      },
+      {
+        "text": "3D Advanced",
+        "link": "/docs/bags/3d_advanced",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Wrap",
+            "link": "/docs/tools/wrap"
+          },
+          {
+            "text": "Texture",
+            "link": "/docs/tools/texture"
+          }
+        ]
+      },
+      {
+        "text": "Reference Geometry",
+        "link": "/docs/bags/reference_geometry",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Plane",
+            "link": "/docs/tools/plane"
+          },
+          {
+            "text": "Helix",
+            "link": "/docs/tools/helix"
+          },
+          {
+            "text": "Vector",
+            "link": "/docs/tools/vector"
+          }
+        ]
+      },
+      {
+        "text": "3D Pattern",
+        "link": "/docs/bags/3d_pattern",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Rotate",
+            "link": "/docs/tools/rotate_feature"
+          },
+          {
+            "text": "Mirror",
+            "link": "/docs/tools/mirror_feature"
+          }
+        ]
+      },
+      {
+        "text": "Combine",
+        "link": "/docs/bags/intersect",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Join",
+            "link": "/docs/tools/join"
+          },
+          {
+            "text": "Intersect",
+            "link": "/docs/tools/intersect"
+          }
+        ]
+      },
+      {
+        "text": "Basic (assemblies)",
+        "link": "/docs/bags/assembly_basic",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Insert Model",
+            "link": "/docs/tools/insert_model"
+          },
+          {
+            "text": "Coincident",
+            "link": "/docs/tools/mate_coincident"
+          },
+          {
+            "text": "Parallel",
+            "link": "/docs/tools/mate_parallel"
+          },
+          {
+            "text": "Concentric",
+            "link": "/docs/tools/mate_concentric"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Guides",
+    "items": [
+      {
+        "text": "Values and expressions",
+        "link": "/docs/guides/values"
+      }
+    ]
+  },
+  {
+    "text": "Releases",
+    "items": [
+      {
+        "text": "0.1.0 Alpha",
+        "link": "/docs/releases/0.1.0a1"
+      }
+    ]
+  }
+]

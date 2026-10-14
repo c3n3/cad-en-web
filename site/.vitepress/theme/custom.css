@@ -1,0 +1,139 @@
+/* designs/main_plan.md's `# Corrections`: less "consumery", more "engineery" -- a technical
+   drawing: graphite on drafting paper, a faint grid, thin ruled lines, square corners,
+   Times New Roman for headings and labels (the wordmark's face), the CADen purple only as a thin
+   accent (links, hovers). */
+
+:root {
+  /* the lettering: the wordmark's face */
+  --lettering: 'Times New Roman', Times, 'Liberation Serif', serif;
+
+  /* the accent: CADen purple, thin uses only */
+  --vp-c-brand-1: #6d3fd0;
+  --vp-c-brand-2: #5b30b8;
+  --vp-c-brand-3: #4a249a;
+  --vp-c-brand-soft: rgba(109, 63, 208, 0.1);
+
+  /* drafting paper and graphite */
+  --vp-c-bg: #f6f6f3;
+  --vp-c-bg-alt: #eeeeea;
+  --vp-c-bg-soft: #ebebe6;
+  --vp-c-text-1: #1d1f22;
+  --vp-c-text-2: #4a4e55;
+  --vp-c-text-3: #8a8e95;
+  --vp-c-divider: #cfd0cc;
+  --grid-minor: rgba(29, 31, 34, 0.025);
+  --grid-major: rgba(29, 31, 34, 0.05);
+
+  /* buttons: ink, square */
+  --vp-button-brand-border: #1d1f22;
+  --vp-button-brand-text: #f6f6f3;
+  --vp-button-brand-bg: #1d1f22;
+  --vp-button-brand-hover-border: #6d3fd0;
+  --vp-button-brand-hover-text: #f6f6f3;
+  --vp-button-brand-hover-bg: #6d3fd0;
+  --vp-button-alt-border: #1d1f22;
+  --vp-button-alt-text: #1d1f22;
+  --vp-button-alt-bg: transparent;
+  --vp-button-alt-hover-border: #6d3fd0;
+  --vp-button-alt-hover-text: #6d3fd0;
+  --vp-button-alt-hover-bg: transparent;
+
+  --vp-home-hero-name-color: var(--vp-c-text-1);
+}
+
+.dark {
+  --vp-c-brand-1: #a88bf0;
+  --vp-c-brand-2: #9472e8;
+  --vp-c-brand-3: #7d58d8;
+  --vp-c-brand-soft: rgba(168, 139, 240, 0.12);
+
+  --vp-c-bg: #17191c;
+  --vp-c-bg-alt: #121417;
+  --vp-c-bg-soft: #1e2125;
+  --vp-c-text-1: #e3e4e6;
+  --vp-c-text-2: #a6a9ae;
+  --vp-c-text-3: #6e7279;
+  --vp-c-divider: #33373d;
+  --grid-minor: rgba(227, 228, 230, 0.016);
+  --grid-major: rgba(227, 228, 230, 0.035);
+
+  --vp-button-brand-border: #e3e4e6;
+  --vp-button-brand-text: #17191c;
+  --vp-button-brand-bg: #e3e4e6;
+  --vp-button-brand-hover-border: #a88bf0;
+  --vp-button-brand-hover-text: #17191c;
+  --vp-button-brand-hover-bg: #a88bf0;
+  --vp-button-alt-border: #e3e4e6;
+  --vp-button-alt-text: #e3e4e6;
+  --vp-button-alt-bg: transparent;
+  --vp-button-alt-hover-border: #a88bf0;
+  --vp-button-alt-hover-text: #a88bf0;
+  --vp-button-alt-hover-bg: transparent;
+}
+
+/* the drafting grid: 10 px minor, 50 px major */
+body {
+  background-color: var(--vp-c-bg);
+  background-image: linear-gradient(var(--grid-major) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-major) 1px, transparent 1px),
+    linear-gradient(var(--grid-minor) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-minor) 1px, transparent 1px);
+  background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
+}
+.VPContent,
+.VPHome,
+.VPDoc,
+.VPPage {
+  background: transparent;
+}
+
+/* the drawing's lettering: headings, the title, buttons, nav */
+.vp-doc h1,
+.vp-doc h2,
+.vp-doc h3,
+.vp-doc h4,
+.VPHero .name,
+.VPHero .text,
+.VPHero .tagline,
+.VPNavBarTitle .title,
+.VPNavBarMenuLink,
+.VPButton,
+.VPSidebarItem .text {
+  font-family: var(--lettering);
+}
+.VPHero .tagline {
+  font-size: 18px;
+  color: var(--vp-c-text-2);
+}
+
+/* square everything; thin rules */
+.VPButton,
+.VPNavBarSearchButton,
+.DocSearch-Button,
+.vp-doc div[class*='language-'],
+.vp-doc table,
+.custom-block,
+.VPFeature {
+  border-radius: 0 !important;
+}
+.VPButton {
+  border-width: 1px;
+  font-weight: 600;
+}
+.vp-doc h2 {
+  border-top: 1px solid var(--vp-c-text-3);
+}
+.vp-doc a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+/* Tool demo animation under each tool page title: a figure, framed. */
+.vp-doc img.tool-demo {
+  display: block;
+  width: 100%;
+  max-width: 720px;
+  margin: 16px 0 24px;
+  border: 1px solid var(--vp-c-text-3);
+  border-radius: 0;
+}

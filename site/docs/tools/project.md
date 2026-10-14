@@ -1,0 +1,36 @@
+# Project
+
+![Project demonstration](../videos/project.webp){.tool-demo}
+
+Brings geometry from outside the sketch onto its plane: entities of other sketches, body edges and whole body faces. The projections stay linked and update when their source changes.
+
+**Where:** Sketch tab › Sketch pattern · **Shortcut:** J (while editing a sketch)
+
+## How to use
+1. Edit the sketch you want to project into.
+2. If you already selected the items to project, click **Project**. When every item can be projected, it happens straight away with no form.
+3. Otherwise the Properties panel shows the Project form with the **Entities** box active. Click the items to project. Clicking an item again removes it.
+4. Click the **Project** button (or press Ctrl+Enter). **Cancel** or Escape closes the form.
+
+## Options
+- **Entities** — the items to project. Select a row and press Delete to remove it. A row in red can't be projected: hover over it to see why. The **Project** button stays disabled until every red row is removed.
+
+## Tips
+- You can pick:
+  - points, lines, arcs, circles and ellipses of other sketches
+  - another sketch's surface, which adds the curves around it
+  - body edges
+  - body faces, flat or curved
+- Projecting a **face** puts its whole outline in the sketch as closed loops, holes included, so the sketch gets a surface you can extrude. A face also holds up better than separate edges when the body is rebuilt later.
+- Items from the sketch being edited can't be projected ("you cannot select items from within the same sketch"). Neither can a projection: pick its source.
+- A circle on a tilted plane becomes an ellipse. An edge seen end-on to the sketch can't be projected.
+- Projected geometry is placed, not solved, so you can't drag it. Constrain and dimension other geometry to it instead.
+- Projections that meet at the same point are joined, so a ring of projected edges closes into a surface.
+- There is no edit form. To change a projection, delete it and project again. Deleting the source also removes the projection.
+
+## See also
+- [Offset](offset.md) — offset a projected outline.
+- [Extrude](extrude.md) — build on a projected face's outline.
+- [Cut Extrude](cut_extrude.md) — cut through a body along a projected outline.
+
+[← Sketch pattern](../bags/sketch_pattern.md) · [All documentation](../index.md)

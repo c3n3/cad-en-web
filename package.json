@@ -1,0 +1,16 @@
+{
+  "name": "cad-en-web",
+  "private": true,
+  "type": "module",
+  "description": "Website for the CADen program",
+  "scripts": {
+    "sync": "node scripts/sync-docs.mjs",
+    "dev": "npm run sync && vitepress dev site",
+    "build": "npm run sync && vitepress build site",
+    "preview": "vitepress preview site"
+  },
+  "devDependencies": {
+    "vitepress": "1.6.4",
+    "vue": "^3.5.13"
+  }
+}
