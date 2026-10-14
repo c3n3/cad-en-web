@@ -65,3 +65,4 @@ October 13 2026 8:12am
   - Q: The two screenshots on the home page: keep them? A: Keep, as figures ("Fig. 1 -- ..."), framed with a thin border, no rounded corners.
 - Use Times New Roman (not monospace) for the lettering; the program's title "CAD Enabled" in plain title case, not full caps; tone down the grid a bit.
 - Keep the website dark by default, just like the default program.
+- Remove the "Figures" title and the captions from the home page.

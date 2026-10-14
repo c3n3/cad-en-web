@@ -22,8 +22,6 @@ CADen (CAD Enabled) is a parametric 3D CAD program. You draw 2D sketches held in
 dimensions and constraints, then build solid parts from them; change a dimension and the part
 follows. It is in early development.
 
-## Figures
-
 <ScreenshotGallery />
 
 </div>

@@ -16,7 +16,6 @@ const open = ref<number | null>(null)
       <button class="shot-button" :aria-label="`Enlarge: ${shot.caption}`" @click="open = i">
         <img :src="withBase(shot.src)" :alt="shot.caption" loading="lazy" />
       </button>
-      <figcaption><span class="fig">Fig. {{ i + 1 }}</span> {{ shot.caption }}</figcaption>
     </figure>
   </div>
 
@@ -51,17 +50,6 @@ const open = ref<number | null>(null)
   aspect-ratio: 16 / 10;
   object-fit: cover;
   object-position: top left;
-}
-figcaption {
-  margin-top: 8px;
-  font-size: 13px;
-  color: var(--vp-c-text-2);
-}
-.fig {
-  margin-right: 6px;
-  font-family: var(--lettering);
-  font-weight: 600;
-  color: var(--vp-c-text-1);
 }
 .lightbox {
   position: fixed;

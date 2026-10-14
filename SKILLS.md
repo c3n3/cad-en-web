@@ -67,6 +67,6 @@ deployed to GitHub Pages at https://c3n3.github.io/cad-en-web/ (`base: '/cad-en-
   `appearance: 'dark'` in config.mts, like the app), a faint 10/50 px grid on `body`, square
   corners, thin rules (`.vp-doc h2` top border), Times New Roman (`--lettering`) for headings,
   hero, nav, buttons and figure labels, purple only on links/hovers, ink buttons. Hero has no
-  image; "CAD Enabled" in plain case. Screenshots are "Fig. N" figures; the version badge is a
+  image; "CAD Enabled" in plain case. Screenshots: framed images, no heading or captions (alt text only); the version badge is a
   stamp (orange outline).
 - Rebuilding under a running `vitepress preview` swaps the hashed assets: restart the preview.
