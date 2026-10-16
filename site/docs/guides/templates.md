@@ -1,6 +1,6 @@
 # Templates
 
-A template is a model with some of its parameters left for you to fill in. It is a `<name>.tcaden.py` file. Making a model from a template asks for those values and writes an ordinary model file.
+A template is a model with some of its parameters left for you to fill in. It is a `<name>.tcaden.json` file (or `.tcaden.py`, see [Model files](model_files.md)). Making a model from a template asks for those values and writes an ordinary model file, as JSON.
 
 ## The Templates panel
 The **Templates** panel has its own tab in the left side bar, right after **Workspace**. It shows templates from three places, each in its folders:
@@ -22,7 +22,7 @@ Type in the search box above them to find a template by name: the search also ma
 - **Create Template from Model** (right-click a model in the Workspace panel) offers the workspace's `.tcaden` folder when there is one, and the model's own folder otherwise.
 
 ## Installing templates
-- **File › Install Template...** copies the `.tcaden.py` files you pick into your own templates folder.
+- **File › Install Template...** copies the template files you pick into your own templates folder.
 - **File › Install Template Folder...** copies a folder of templates, with its subfolders, as a folder of its own.
 - Installing something that is already there asks whether to replace it.
 - Right-click a user template, or a folder of them, and choose **Uninstall** to remove it. CADen asks first. A workspace template's **Delete** moves it to the recycle bin.

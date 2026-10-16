@@ -1,5 +1,7 @@
 # Geared
 
+![Geared demonstration](../videos/mate_geared.webp){.tool-demo}
+
 Links two models' turns in a fixed ratio, like two gears in mesh: turn one and the other turns with it.
 
 **Where:** Assembly tab › Mechanical · **Shortcut:** none (available from the command palette, Ctrl+Shift+P)

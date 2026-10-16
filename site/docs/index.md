@@ -29,11 +29,14 @@ The ribbon's **Features** tab:
 - [Values and expressions](guides/values.md) — Units, arithmetic and parameters in any value box, and the value editor.
 - [Custom features](guides/custom_features.md) — Make your own features, keep them in a workspace and use them in any model.
 - [Templates](guides/templates.md) — Models with values to fill in: the Templates panel, installing them, making models from them.
+- [Model files](guides/model_files.md) — The JSON and Python file formats, and how Save As chooses between them.
+- [Tool crates](guides/tool_crates.md) — Share templates and custom features as one `.ccaden.zip` file: installing and creating crates.
 
 ## Releases
 
 What changed in each release:
 
+- [0.3.0 Alpha](releases/0.3.0a1.md) — JSON model files, tool crates, the cup's text and speed.
 - [0.2.0 Alpha](releases/0.2.0a1.md) — custom features, templates and gears, new assembly constraints.
 - [0.1.2 Alpha](releases/0.1.2a1.md) — the Coincident constraint fix.
 - [0.1.1 Alpha](releases/0.1.1a1.md) — showcase video fixes.

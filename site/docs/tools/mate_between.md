@@ -1,5 +1,7 @@
 # Between
 
+![Between demonstration](../videos/mate_between.webp){.tool-demo}
+
 Centres one model between two faces of another — a block in a slot, a wheel between two forks. The middle of one model's pair of planes is put on the middle of the other's.
 
 **Where:** Assembly tab › Basic · **Shortcut:** none (available from the command palette, Ctrl+Shift+P)

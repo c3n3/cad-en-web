@@ -1,6 +1,6 @@
 # Custom Feature
 
-Make a custom feature: a set of sketches and features that other models can use as one tool. This bag is on the **Features** tab while a custom feature file (`.fcaden.py`) is open.
+Make a custom feature: a set of sketches and features that other models can use as one tool. This bag is on the **Features** tab while a custom feature file (`.fcaden.json`, or `.fcaden.py`) is open.
 
 | Tool | What it does |
 |---|---|

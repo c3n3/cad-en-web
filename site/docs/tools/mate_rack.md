@@ -1,5 +1,7 @@
 # Rack and Pinion
 
+![Rack and Pinion demonstration](../videos/mate_rack.webp){.tool-demo}
+
 Links a gear's turn to a rack's travel: turn the gear and the rack slides along, slide the rack and the gear turns.
 
 **Where:** Assembly tab › Mechanical · **Shortcut:** none (available from the command palette, Ctrl+Shift+P)

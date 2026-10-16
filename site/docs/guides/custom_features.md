@@ -1,6 +1,6 @@
 # Custom features
 
-A custom feature is a set of sketches and features you draw once and use in any model, as one tool. It lives in its own file, `<name>.fcaden.py`, inside a workspace.
+A custom feature is a set of sketches and features you draw once and use in any model, as one tool. It lives in its own file, `<name>.fcaden.json` (or `.fcaden.py`, see [Model files](model_files.md)), inside a workspace.
 
 ## Making one
 1. Open a workspace. Then choose **File › New Custom Feature**, click **New Custom Feature** on the welcome page, or right-click a folder in the Workspace panel and choose **New Custom Feature**. The file goes in the workspace's `.fcaden` folder, which is made if it isn't there.
@@ -13,15 +13,15 @@ Without a workspace, a custom feature file can still be made, drawn and defined.
 
 ## Where they are kept
 - Files directly in `.fcaden` are tools in a bag named `.fcaden`.
-- Each subfolder of `.fcaden` is a bag named exactly after the folder. Subfolders of subfolders are not used.
+- Each subfolder of `.fcaden` is a bag named exactly after the folder. Custom features in folders below it are tools in that same bag.
 - The bags appear on the **Features** tab when the workspace opens. Right-click a bag to make a new custom feature in it, or to hide the bag. The Tool Ribbon Editor puts a hidden bag back.
 - A custom feature saved outside `.fcaden` isn't in any bag, so CADen asks before saving it there.
 
 ## Installing one
 Install a custom feature to have it in every model you open, with or without a workspace.
 
-- **File › Install Custom Feature...** copies the `.fcaden.py` files you pick into your own custom features folder. Each one is a tool in the `.fcaden` bag.
-- **File › Install Custom Feature Bag...** copies a folder's `.fcaden.py` files as a bag of their own, named as the folder is.
+- **File › Install Custom Feature...** copies the custom feature files you pick into your own custom features folder. Each one is a tool in the `.fcaden` bag.
+- **File › Install Custom Feature Bag...** copies a folder's custom feature files as a bag of their own, named as the folder is.
 - Installing something that is already installed asks whether to replace it.
 - Your folder works like a workspace's `.fcaden` folder. A bag with the same name in both shows as one bag. A tool in both shows twice, and the installed one's tooltip says so.
 - A model refers to an installed custom feature by its installed name, such as `installed:nut_slot.fcaden.py`, so the model works on any computer that has it installed.

@@ -290,12 +290,24 @@
       {
         "text": "Templates",
         "link": "/docs/guides/templates"
+      },
+      {
+        "text": "Model files",
+        "link": "/docs/guides/model_files"
+      },
+      {
+        "text": "Tool crates",
+        "link": "/docs/guides/tool_crates"
       }
     ]
   },
   {
     "text": "Releases",
     "items": [
+      {
+        "text": "0.3.0 Alpha",
+        "link": "/docs/releases/0.3.0a1"
+      },
       {
         "text": "0.2.0 Alpha",
         "link": "/docs/releases/0.2.0a1"
