@@ -241,6 +241,36 @@
           {
             "text": "Concentric",
             "link": "/docs/tools/mate_concentric"
+          },
+          {
+            "text": "Between",
+            "link": "/docs/tools/mate_between"
+          }
+        ]
+      },
+      {
+        "text": "Mechanical",
+        "link": "/docs/bags/mechanical",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Geared",
+            "link": "/docs/tools/mate_geared"
+          },
+          {
+            "text": "Rack and Pinion",
+            "link": "/docs/tools/mate_rack"
+          }
+        ]
+      },
+      {
+        "text": "Custom Feature",
+        "link": "/docs/bags/custom_feature",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Feature Definition",
+            "link": "/docs/tools/feature_definition"
           }
         ]
       }
@@ -252,12 +282,24 @@
       {
         "text": "Values and expressions",
         "link": "/docs/guides/values"
+      },
+      {
+        "text": "Custom features",
+        "link": "/docs/guides/custom_features"
+      },
+      {
+        "text": "Templates",
+        "link": "/docs/guides/templates"
       }
     ]
   },
   {
     "text": "Releases",
     "items": [
+      {
+        "text": "0.2.0 Alpha",
+        "link": "/docs/releases/0.2.0a1"
+      },
       {
         "text": "0.1.2 Alpha",
         "link": "/docs/releases/0.1.2a1"
