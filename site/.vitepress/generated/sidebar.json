@@ -273,6 +273,17 @@
             "link": "/docs/tools/feature_definition"
           }
         ]
+      },
+      {
+        "text": "3D Prints",
+        "link": "/docs/bags/3d_prints",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Overhang",
+            "link": "/docs/tools/overhang"
+          }
+        ]
       }
     ]
   },
@@ -298,12 +309,24 @@
       {
         "text": "Tool crates",
         "link": "/docs/guides/tool_crates"
+      },
+      {
+        "text": "Using CADen with an AI",
+        "link": "/docs/guides/ai"
+      },
+      {
+        "text": "Bug reports",
+        "link": "/docs/guides/bug_reports"
       }
     ]
   },
   {
     "text": "Releases",
     "items": [
+      {
+        "text": "0.4.0 Alpha",
+        "link": "/docs/releases/0.4.0a1"
+      },
       {
         "text": "0.3.0 Alpha",
         "link": "/docs/releases/0.3.0a1"

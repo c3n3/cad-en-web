@@ -23,6 +23,7 @@ The ribbon's **Features** tab:
 - [Basic (assemblies)](bags/assembly_basic.md) — Insert models into an assembly and constrain them together.
 - [Mechanical](bags/mechanical.md) — Link how models in an assembly turn, like gears.
 - [Custom Feature](bags/custom_feature.md) — Define a custom feature, in a custom feature file.
+- [3D Prints](bags/3d_prints.md) — Prepare parts for 3D printing (hidden until added to a tab).
 
 ## Guides
 
@@ -31,11 +32,14 @@ The ribbon's **Features** tab:
 - [Templates](guides/templates.md) — Models with values to fill in: the Templates panel, installing them, making models from them.
 - [Model files](guides/model_files.md) — The JSON and Python file formats, and how Save As chooses between them.
 - [Tool crates](guides/tool_crates.md) — Share templates and custom features as one `.ccaden.zip` file: installing and creating crates.
+- [Using CADen with an AI](guides/ai.md) — Where the AI API folder is, and pointing an AI assistant at it to write models.
+- [Bug reports](guides/bug_reports.md) — Help › Bug Report: what it saves (the session record, the open models) and the session recording setting.
 
 ## Releases
 
 What changed in each release:
 
+- [0.4.0 Alpha](releases/0.4.0a1.md) — the AI API, bug reports, the Overhang tool, ribbon editor and feature-edit fixes.
 - [0.3.0 Alpha](releases/0.3.0a1.md) — JSON model files, tool crates, the cup's text and speed.
 - [0.2.0 Alpha](releases/0.2.0a1.md) — custom features, templates and gears, new assembly constraints.
 - [0.1.2 Alpha](releases/0.1.2a1.md) — the Coincident constraint fix.
