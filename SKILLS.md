@@ -70,3 +70,16 @@ deployed to GitHub Pages at https://c3n3.github.io/cad-en-web/ (`base: '/cad-en-
   image; "CAD Enabled" in plain case. Screenshots: framed images, no heading or captions (alt text only); the version badge is a
   stamp (orange outline).
 - Rebuilding under a running `vitepress preview` swaps the hashed assets: restart the preview.
+
+## Home page features (designs/home_page_features.md, Oct 19 2026)
+
+- `site/index.md`: About, then `.feature-cards` (plain HTML `<a class="feature-card">` boxes, styled in
+  `custom.css`, each linking to `#values` / `#model-files` / `#parameters` / `#custom-features` / `#ai` /
+  `#offline` / `#workspace`), then one `## Heading {#id}` section per topic with "Learn more →" links to the
+  docs guides (`/docs/guides/values`, `values#parameters`, `model_files`, `custom_features`, `ai`; no page for
+  workspaces or offline), then `<ScreenshotGallery />`. VitePress's `features:` frontmatter was not used: it
+  always renders right under the hero, before About.
+- Examples (its `# Q/A`): value expressions, and a workspace file tree where one model reads another's
+  imported value (`m5_bolt::length - 0.25in` -- checked: imports land as `<model>::<name>`).
+- Building without `npm run sync` (`npx vitepress build site`) keeps the committed (released) docs copy --
+  sync would publish unreleased pages. Preview: the super repo's `.claude/launch.json` `cad-en-web-preview`.

@@ -137,3 +137,37 @@ body {
   border: 1px solid var(--vp-c-text-3);
   border-radius: 0;
 }
+
+/* designs/home_page_features.md: the home page's feature cards -- a grid of framed
+   boxes like the screenshots, each linking to its section below. */
+.vp-doc .feature-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+  margin: 32px 0 16px;
+}
+.vp-doc a.feature-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 16px 18px;
+  border: 1px solid var(--vp-c-text-3);
+  border-radius: 0;
+  background: var(--vp-c-bg);
+  color: var(--vp-c-text-1);
+  text-decoration: none;
+  transition: border-color 0.2s;
+}
+.vp-doc a.feature-card:hover {
+  border-color: var(--vp-c-brand-1);
+}
+.vp-doc .feature-title {
+  font-family: var(--lettering);
+  font-size: 18px;
+  font-weight: 600;
+}
+.vp-doc .feature-line {
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--vp-c-text-2);
+}
