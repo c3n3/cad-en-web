@@ -30,6 +30,10 @@
           {
             "text": "Measure",
             "link": "/docs/tools/measure"
+          },
+          {
+            "text": "Join Points",
+            "link": "/docs/tools/join_points"
           }
         ]
       },
@@ -335,6 +339,10 @@
   {
     "text": "Releases",
     "items": [
+      {
+        "text": "0.5.1 Alpha",
+        "link": "/docs/releases/0.5.1a1"
+      },
       {
         "text": "0.5.0 Alpha",
         "link": "/docs/releases/0.5.0a1"

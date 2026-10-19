@@ -24,7 +24,7 @@ Makes rotated copies of sketch geometry around a centre, spread evenly over an a
 
 ## Tips
 - The step is the angle divided by the number of copies. For example, 4 copies over 360 gives a copy every 90°, but 2 copies over 90 gives a 45° step. To place copies a fixed number of degrees apart, use Spacing.
-- There is no preview: check the result after Create, or undo with Ctrl+Z.
+- The copies show as a preview while you fill in the form, and update as you change the centre, the entities, the copies, the angle or the spacing. Nothing is added until Create.
 - A line that is not perpendicular to the sketch is refused as a centre with "not perpendicular to the sketch plane".
 - Only an unticked (derived) Rotate can be edited later. Right-click it in the tree and choose **Edit Rotate**, or select it or one of its copies and use **Edit rotate** in the Properties panel. Copy Entities can't be changed while editing.
 - Points you joined with a coincident constraint stay joined in every copy, so a closed outline turns as closed outlines (each gets its own surface).

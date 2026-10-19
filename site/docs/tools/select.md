@@ -9,14 +9,18 @@ The neutral tool: click to select items and drag to move them. CADen returns to 
 ## How to use
 1. Click an item in the 3D view to select it. Click empty space to clear the selection.
 2. Hold Shift or Ctrl while clicking to add more items.
-3. Drag across empty space to select with a box:
+3. Drag across empty space, or from a sketch surface that isn't selected, to select with a box:
    - **Left to right** (dashed outline) takes everything the box touches.
    - **Right to left** (solid outline) takes only items completely inside it.
-4. Drag a point, line, circle or arc to move it. The constraints get the final say, so a point that is held in place won't move.
+4. Drag a point, line, circle or arc to move it. To move a whole shape, click its surface first, then drag the selected surface. The constraints get the final say, so a point that is held in place won't move.
 5. With items selected, the Properties panel shows their details and the constraints you can add.
 
 ## Options
-- **Select / Continuous select** — use the small arrow on the button to switch variants. **Continuous select** adds the whole chain of lines and arcs joined smoothly end to end with the item you click. It works on body edges too.
+- **Select / Continuous select / Joined select** — use the small arrow on the button to switch variants.
+  - **Continuous select** adds the whole chain of lines and arcs joined smoothly end to end with the item you click. It works on body edges too.
+  - **Joined select** adds every sketch curve connected to the one you click, at sharp corners as well as smooth ones. Curves count as connected when they share an end point or their ends are joined by a coincident constraint, the same joins that make a closed outline a surface. A line whose end only rests on another line's middle isn't included.
+
+![Joined select: one click takes the whole outline](../videos/joined_select.webp)
 
 ## Tips
 - Press Escape to clear the selection. If another tool is active, Escape first returns you to Select.

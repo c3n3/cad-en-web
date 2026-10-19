@@ -41,6 +41,7 @@ The ribbon's **Features** tab:
 
 What changed in each release:
 
+- [0.5.1 Alpha](releases/0.5.1a1.md) — Joined select, Join Points, box select from a surface, the Rotate preview.
 - [0.5.0 Alpha](releases/0.5.0a1.md) — master files, vector parameters, STL import, the Measure tool, curved-edge fillets, file names ending in their kind, one `.caden/` folder per workspace.
 - [0.4.0 Alpha](releases/0.4.0a1.md) — the AI API, bug reports, the Overhang tool, ribbon editor and feature-edit fixes.
 - [0.3.0 Alpha](releases/0.3.0a1.md) — JSON model files, tool crates, the cup's text and speed.

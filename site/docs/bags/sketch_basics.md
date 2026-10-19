@@ -9,6 +9,7 @@ Start a sketch, choose the tag new geometry goes on, select, dimension and measu
 | [Select](../tools/select.md) | Pick, box-select and drag sketch and model items. |
 | [Dimension](../tools/dimension.md) | Add a length, distance, angle, diameter or gap dimension. |
 | [Measure](../tools/measure.md) | Read distances, angles and sizes off one or two items, without changing anything. |
+| [Join Points](../tools/join_points.md) | Join the points of chosen items that lie within a tolerance of each other. |
 
 Right-click any tool button and choose **Help** to see its demonstration and page.
 
