@@ -1,6 +1,6 @@
 # Basic (assemblies)
 
-Put models together. An assembly (`.acaden.json`, or `.acaden.py`) brings in model files and places them with constraints. These tools are on the **Assembly** tab of the ribbon, which replaces the Sketch and Features tabs while an assembly is open.
+Put models together. An assembly (`.json.acaden`, or `.py.acaden`) brings in model files and places them with constraints. These tools are on the **Assembly** tab of the ribbon, which replaces the Sketch and Features tabs while an assembly is open.
 
 | Tool | What it does |
 |---|---|

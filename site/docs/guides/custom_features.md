@@ -1,6 +1,6 @@
 # Custom features
 
-A custom feature is a set of sketches and features you draw once and use in any model, as one tool. It lives in its own file, `<name>.fcaden.json` (or `.fcaden.py`, see [Model files](model_files.md)), inside a workspace.
+A custom feature is a set of sketches and features you draw once and use in any model, as one tool. It lives in its own file, `<name>.json.fcaden` (or `.py.fcaden`, see [Model files](model_files.md)), inside a workspace.
 
 ## Making one
 1. Open a workspace. Then choose **File › New Custom Feature**, click **New Custom Feature** on the welcome page, or right-click a folder in the Workspace panel and choose **New Custom Feature**. The file goes in the workspace's `.fcaden` folder, which is made if it isn't there.
@@ -24,7 +24,7 @@ Install a custom feature to have it in every model you open, with or without a w
 - **File › Install Custom Feature Bag...** copies a folder's custom feature files as a bag of their own, named as the folder is.
 - Installing something that is already installed asks whether to replace it.
 - Your folder works like a workspace's `.fcaden` folder. A bag with the same name in both shows as one bag. A tool in both shows twice, and the installed one's tooltip says so.
-- A model refers to an installed custom feature by its installed name, such as `installed:nut_slot.fcaden.py`, so the model works on any computer that has it installed.
+- A model refers to an installed custom feature by its installed name, such as `installed:nut_slot.py.fcaden`, so the model works on any computer that has it installed.
 - Right-click an installed tool and choose **Uninstall** to remove it, or right-click an installed bag and choose **Uninstall Bag**. CADen asks first.
 
 ## Using one

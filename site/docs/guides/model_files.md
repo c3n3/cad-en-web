@@ -6,16 +6,16 @@ CADen saves models as JSON files. A JSON file is only data, so opening one can't
 
 | File | JSON (the default) | Python |
 |---|---|---|
-| Model | `<name>.caden.json` | `<name>.caden.py` |
-| Assembly | `<name>.acaden.json` | `<name>.acaden.py` |
-| Template | `<name>.tcaden.json` | `<name>.tcaden.py` |
-| Custom feature | `<name>.fcaden.json` | `<name>.fcaden.py` |
+| Model | `<name>.json.caden` | `<name>.py.caden` |
+| Assembly | `<name>.json.acaden` | `<name>.py.acaden` |
+| Template | `<name>.json.tcaden` | `<name>.py.tcaden` |
+| Custom feature | `<name>.json.fcaden` | `<name>.py.fcaden` |
 
 ## Saving
 
 - A new model is saved as JSON.
 - **File › Save As...** offers both formats in the file type list at the bottom right of the dialog. JSON is chosen by default. For a file that is already Python, Python is chosen.
-- If you type the extension yourself (`bracket.caden.py`), that format is used.
+- If you type the extension yourself (`bracket.py.caden`), that format is used.
 - **File › Save** keeps a file in the format it was opened in: a Python model stays Python.
 - A model made from a template is saved as JSON, whatever format the template is.
 

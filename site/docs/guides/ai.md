@@ -30,8 +30,8 @@ Python itself).
 
 ## Tips
 
-- Files the AI writes as Python (`.caden.py`) run when they are opened. Read
-  them, or ask for JSON (`.caden.json`), which can't run anything.
+- Files the AI writes as Python (`.py.caden`) run when they are opened. Read
+  them, or ask for JSON (`.json.caden`), which can't run anything.
 - Don't edit the folder: CADen replaces it on update. Keep your own files in
   your project.
 

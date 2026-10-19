@@ -1,6 +1,6 @@
 # Templates
 
-A template is a model with some of its parameters left for you to fill in. It is a `<name>.tcaden.json` file (or `.tcaden.py`, see [Model files](model_files.md)). Making a model from a template asks for those values and writes an ordinary model file, as JSON.
+A template is a model with some of its parameters left for you to fill in. It is a `<name>.json.tcaden` file (or `.py.tcaden`, see [Model files](model_files.md)). Making a model from a template asks for those values and writes an ordinary model file, as JSON.
 
 ## The Templates panel
 The **Templates** panel has its own tab in the left side bar, right after **Workspace**. It shows templates from three places, each in its folders:

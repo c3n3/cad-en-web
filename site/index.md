@@ -74,9 +74,9 @@ parameter and every sketch and feature that uses it follows.
 
 A CADen model is a text file, in one of two formats:
 
-- **Python** (`.caden.py`) — the model is a short script. Loops, functions and calculations make
+- **Python** (`.py.caden`) — the model is a short script. Loops, functions and calculations make
   families of parts easy, and it is the natural format for scripts and AI assistants to write.
-- **JSON** (`.caden.json`) — the model is plain data that never runs anything, so a file from
+- **JSON** (`.json.caden`) — the model is plain data that never runs anything, so a file from
   anyone is safe to open. It is the default for new files.
 
 Both are readable text: every change shows up as a clear diff, so models live happily in git
@@ -94,9 +94,9 @@ When the imported file changes, the models using it update.
 ```text
 shelf_unit/
 ├── hardware/
-│   └── m5_bolt.caden.json           length = 20mm
+│   └── m5_bolt.json.caden           length = 20mm
 └── brackets/
-    └── shelf_bracket.caden.json     imports m5_bolt
+    └── shelf_bracket.json.caden     imports m5_bolt
                                      hole_depth = m5_bolt::length - 0.25in
 ```
 

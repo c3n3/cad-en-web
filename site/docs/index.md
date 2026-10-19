@@ -31,7 +31,7 @@ The ribbon's **Features** tab:
 - [Custom features](guides/custom_features.md) — Make your own features, keep them in a workspace and use them in any model.
 - [Templates](guides/templates.md) — Models with values to fill in: the Templates panel, installing them, making models from them.
 - [Model files](guides/model_files.md) — The JSON and Python file formats, and how Save As chooses between them.
-- [Tool crates](guides/tool_crates.md) — Share templates and custom features as one `.ccaden.zip` file: installing and creating crates.
+- [Tool crates](guides/tool_crates.md) — Share templates and custom features as one `.zip.ccaden` file: installing and creating crates.
 - [Using CADen with an AI](guides/ai.md) — Where the AI API folder is, and pointing an AI assistant at it to write models.
 - [Bug reports](guides/bug_reports.md) — Help › Bug Report: what it saves (the session record, the open models) and the session recording setting.
 

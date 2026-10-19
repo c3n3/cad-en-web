@@ -8,7 +8,7 @@ Brings a model file (or another assembly) into the assembly. Each model keeps it
 
 ## How to use
 1. Open or create an assembly (File › New Assembly, or the welcome page's **New Assembly**).
-2. Click **Insert Model** and choose a model file (`.caden.json` or `.caden.py`) or an assembly (`.acaden.json` or `.acaden.py`).
+2. Click **Insert Model** and choose a model file (`.json.caden` or `.py.caden`) or an assembly (`.json.acaden` or `.py.acaden`).
 3. The model follows the cursor, sliding on the plane through the origin that faces you. Move it roughly into place.
 4. Click to place it. Press Escape instead to leave it out.
 
