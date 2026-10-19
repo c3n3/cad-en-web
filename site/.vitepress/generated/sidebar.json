@@ -26,6 +26,10 @@
           {
             "text": "Dimension",
             "link": "/docs/tools/dimension"
+          },
+          {
+            "text": "Measure",
+            "link": "/docs/tools/measure"
           }
         ]
       },
@@ -311,6 +315,14 @@
         "link": "/docs/guides/tool_crates"
       },
       {
+        "text": "Master files",
+        "link": "/docs/guides/master_files"
+      },
+      {
+        "text": "STL import",
+        "link": "/docs/guides/stl_import"
+      },
+      {
         "text": "Using CADen with an AI",
         "link": "/docs/guides/ai"
       },
@@ -323,6 +335,10 @@
   {
     "text": "Releases",
     "items": [
+      {
+        "text": "0.5.0 Alpha",
+        "link": "/docs/releases/0.5.0a1"
+      },
       {
         "text": "0.4.0 Alpha",
         "link": "/docs/releases/0.4.0a1"

@@ -4,7 +4,7 @@
 
 Mirrors sketch geometry across a line. The mirrored copies stay symmetric to the originals.
 
-**Where:** Sketch tab › Sketch pattern · **Shortcut:** M (while editing a sketch)
+**Where:** Sketch tab › Sketch pattern · **Shortcut:** Alt+M (while editing a sketch)
 
 ## How to use
 1. Edit a sketch. Optionally select the geometry to mirror first. If your selection includes exactly one construction line, it becomes the mirror line and everything else goes in the Entities box.
@@ -24,6 +24,7 @@ Mirrors sketch geometry across a line. The mirrored copies stay symmetric to the
 - Only an unticked (derived) mirror can be edited later. Right-click it in the tree and choose **Edit Mirror**, or select one of its copies and use **Edit mirror** in the Properties panel. Copy Entities can't be changed while editing.
 - Deleting a copy made by a derived mirror asks whether to delete the whole mirror.
 - Copies made with Copy Entities ticked are normal geometry. Deleting the symmetry constraint frees them.
+- Points you joined with a coincident constraint stay joined in the copies, so a closed outline mirrors as a closed outline (and gets its own surface).
 - The form remembers whether you last used Copy Entities.
 
 ## See also

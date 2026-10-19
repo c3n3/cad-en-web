@@ -33,6 +33,7 @@ Creates a custom reference plane from existing geometry. You can then start sket
 - Planes are listed under **Features** in the tree. Right-click a plane for **New Sketch** (which starts a sketch on it straight away), **Show** / **Hide**, or **Delete**.
 - Deleting a plane also deletes the sketches on it. The confirmation lists everything that goes with it.
 - Selecting a plane shows what it was built from in the Properties panel.
+- The three base planes are tinted with the colour of the axis they face: XY with Z's, YZ with X's, XZ with Y's. Planes you make stay grey.
 - A plane built on an infinite line is sized from the current view when you create it. Its size is only visual.
 - The form reopens with the offset, angle and check boxes you used last.
 

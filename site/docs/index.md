@@ -8,7 +8,7 @@ them with features. Every tool in the ribbon has a page here; right-click a tool
 
 The ribbon's **Sketch** tab:
 
-- [Sketch basics](bags/sketch_basics.md) — Start a sketch, choose the tag new geometry goes on, select things and dimension them.
+- [Sketch basics](bags/sketch_basics.md) — Start a sketch, choose the tag new geometry goes on, select, dimension and measure things.
 - [Sketch drawing](bags/sketch_drawing.md) — Draw the curves and shapes a sketch is made of.
 - [Sketch pattern](bags/sketch_pattern.md) — Copy and repeat sketch geometry.
 - [Documentation](bags/documentation.md) — Notes in a sketch.
@@ -32,6 +32,8 @@ The ribbon's **Features** tab:
 - [Templates](guides/templates.md) — Models with values to fill in: the Templates panel, installing them, making models from them.
 - [Model files](guides/model_files.md) — The JSON and Python file formats, and how Save As chooses between them.
 - [Tool crates](guides/tool_crates.md) — Share templates and custom features as one `.zip.ccaden` file: installing and creating crates.
+- [Master files](guides/master_files.md) — Start new models, assemblies and custom features from saved ones: File › Create New, the 3D Print master, installing your own.
+- [STL import](guides/stl_import.md) — Turn an STL into a model to sketch on: File › Import › STL..., the import settings, `.zip.scaden` projects.
 - [Using CADen with an AI](guides/ai.md) — Where the AI API folder is, and pointing an AI assistant at it to write models.
 - [Bug reports](guides/bug_reports.md) — Help › Bug Report: what it saves (the session record, the open models) and the session recording setting.
 
@@ -39,6 +41,7 @@ The ribbon's **Features** tab:
 
 What changed in each release:
 
+- [0.5.0 Alpha](releases/0.5.0a1.md) — master files, vector parameters, STL import, the Measure tool, curved-edge fillets, file names ending in their kind, one `.caden/` folder per workspace.
 - [0.4.0 Alpha](releases/0.4.0a1.md) — the AI API, bug reports, the Overhang tool, ribbon editor and feature-edit fixes.
 - [0.3.0 Alpha](releases/0.3.0a1.md) — JSON model files, tool crates, the cup's text and speed.
 - [0.2.0 Alpha](releases/0.2.0a1.md) — custom features, templates and gears, new assembly constraints.

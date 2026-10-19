@@ -22,7 +22,7 @@ Bevels the edges of a body with a flat, angled face.
 
 ## Tips
 - A drag box while the tool is active selects only edges.
-- Edges chamfered in one feature meet cleanly at shared corners, so pick edges that meet at a corner together.
+- Edges chamfered in one feature meet cleanly at shared corners, so pick edges that meet at a corner together. Where every edge at a corner is in the same chamfer, the corner gets a flat face of its own (a triangle at a box's corner; at a corner of four or more faces, a few flat faces meeting in the middle).
 - A chamfer may run across an earlier fillet or chamfer and blend into it.
 - If the distance is too big for the faces beside an edge, the chamfer is refused with a message such as "the faces beside edge-7 leave no room for a blend".
 - If there are no bodies yet, the tool says "make a body first -- there are no edges to blend".

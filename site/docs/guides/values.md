@@ -28,6 +28,18 @@ Properties panel.
 Use its name in any value: `box_height + 1in`. Change the parameter and everything that uses it
 updates. Parameters can be grouped: a parameter in a group is written `group::name`.
 
+## Vectors
+
+A **Vector** parameter holds several values at once, written in braces: `{0.1mm, 0.1mm, 0.1mm}`.
+Choose **Vector** as the parameter's type. Each value can be any expression, with its own unit
+(`{width / 2, 30, 2s}` is fine), and a vector can hold any number of them.
+
+- Use one value by its position, counting from 0: `print::hole_tolerance[0]` is the first.
+- Vector arithmetic works on every value at once: `hole_tolerance * 2`,
+  `hole_tolerance + {1mm, 0, 0}`, and `sum(hole_tolerance)` adds them up.
+- A box that needs one number won't take a whole vector: take one of its values instead.
+- A drawn vector (the **Vector** tool) can be used as one too: `Vector1[2]` is its Z.
+
 ## The value editor
 
 ![The value editor](../videos/values_editor.webp)

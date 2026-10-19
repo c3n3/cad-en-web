@@ -27,6 +27,8 @@ Makes rotated copies of sketch geometry around a centre, spread evenly over an a
 - There is no preview: check the result after Create, or undo with Ctrl+Z.
 - A line that is not perpendicular to the sketch is refused as a centre with "not perpendicular to the sketch plane".
 - Only an unticked (derived) Rotate can be edited later. Right-click it in the tree and choose **Edit Rotate**, or select it or one of its copies and use **Edit rotate** in the Properties panel. Copy Entities can't be changed while editing.
+- Points you joined with a coincident constraint stay joined in every copy, so a closed outline turns as closed outlines (each gets its own surface).
+- In the sketch, each copy shows one rotational constraint icon. The original, the centre and the end points of copied lines show none.
 - The form remembers the copies, angle and spacing you last used.
 - To rotate bodies or features in 3D, use the Rotate tool on the Features tab instead.
 

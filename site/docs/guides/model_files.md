@@ -11,6 +11,10 @@ CADen saves models as JSON files. A JSON file is only data, so opening one can't
 | Template | `<name>.json.tcaden` | `<name>.py.tcaden` |
 | Custom feature | `<name>.json.fcaden` | `<name>.py.fcaden` |
 
+An [STL project](stl_import.md) is a `<name>.zip.scaden`: a JSON model file and its STL, zipped together.
+
+The kind of file is the last part of the name (`.caden`, `.acaden` ...), so Windows can open each kind in CADen. Files with the older names (`bracket.caden.json`, `gear.tcaden.py`, `part.scaden.zip`) still open; saving one writes it under the new name and removes the old file. Files that refer to another file by its older name (an assembly's parts, imported parameters) still find it.
+
 ## Saving
 
 - A new model is saved as JSON.

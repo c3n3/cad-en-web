@@ -28,6 +28,10 @@ The AI checks its work with the folder's own `caden-ai` command, which needs
 Python 3.12 on your computer (or [uv](https://docs.astral.sh/uv/), which gets
 Python itself).
 
+With CADen from the Microsoft Store, `caden-ai` is also a command in any
+terminal, with nothing else to install, and the folder above is inside the
+Store app's own data folder (the path shown here is the real one).
+
 ## Tips
 
 - Files the AI writes as Python (`.py.caden`) run when they are opened. Read

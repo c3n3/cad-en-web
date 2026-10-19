@@ -8,8 +8,8 @@ The **Templates** panel has its own tab in the left side bar, right after **Work
 - **Builtin** — templates that come with CADen. **Gears › spur_gear** makes any spur gear: the number of teeth, the module, the pressure angle (degrees), the face width, the bore, a profile shift, the addendum and dedendum (in modules) and the backlash. Its teeth are true involutes, and its `shape::pitch_diameter` is what a [Geared](../tools/mate_geared.md) constraint takes its ratio from.
   **Gears › helical_gear** is the same with a helix: the module and pressure angle are the normal ones (gears cut with the same module mesh), plus the helix angle, the **hand** (right or left -- gears meshing on parallel shafts have opposite hands) and **herringbone** (no or yes: the helix turns back from the middle of the face width).
   **Gears › gear_rack** is a straight rack along x, teeth up: its length set by **length_by** -- `teeth` (whole teeth, the ends in the middle of a gap) or `length` (as many teeth as fit) -- with the pitch line's height above the bar's bottom. **Gears › helical_rack** slants its teeth at the helix angle; a right-hand rack meshes with a right-hand helical gear set on top of it. A [Rack and Pinion](../tools/mate_rack.md) constraint turns a gear as its rack slides.
-- **User** — your own templates folder, `.tcaden` beside your settings. Templates you install go here, and you can use them in any model or workspace.
-- **Workspace** — the open workspace's `.tcaden` folder. Only that folder is shown; a template saved elsewhere in the workspace still appears in the Workspace panel.
+- **User** — your own `templates` folder, in the CADen settings folder (`%APPDATA%\CADen\templates` on Windows). Templates you install go here, and you can use them in any model or workspace.
+- **Workspace** — the open workspace's `.caden/templates` folder. Only that folder is shown; a template saved elsewhere in the workspace still appears in the Workspace panel.
 
 The User and Workspace headings show only when they hold a template or a folder.
 
@@ -19,11 +19,11 @@ Type in the search box above them to find a template by name: the search also ma
 - Double-click a template, or right-click it and choose **Create model from template**. Fill in the values (a choice, like the helical gear's hand, from its list) and choose where to save the new model. It then opens in a tab.
 - A builtin, user or workspace template's new model is offered in the workspace's root folder. With no workspace open, it is offered where you last opened a file.
 - Right-click a user or workspace template and choose **Edit Template** to change which parameters it asks for.
-- **Create Template from Model** (right-click a model in the Workspace panel) offers the workspace's `.tcaden` folder when there is one, and the model's own folder otherwise.
+- **Create Template from Model** (right-click a model in the Workspace panel) offers the workspace's `.caden/templates` folder when there is one, and the model's own folder otherwise.
 
 ## Installing templates
-- **File › Install Template...** copies the template files you pick into your own templates folder.
-- **File › Install Template Folder...** copies a folder of templates, with its subfolders, as a folder of its own.
+- **File › Install › Template...** copies the template files you pick into your own templates folder.
+- **File › Install › Template Folder...** copies a folder of templates, with its subfolders, as a folder of its own.
 - Installing something that is already there asks whether to replace it.
 - Right-click a user template, or a folder of them, and choose **Uninstall** to remove it. CADen asks first. A workspace template's **Delete** moves it to the recycle bin.
 

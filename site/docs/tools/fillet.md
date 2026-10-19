@@ -23,7 +23,7 @@ Rounds the edges of a body. Material is taken off outside corners and filled int
 
 ## Tips
 - A drag box while the tool is active selects only edges.
-- Edges picked in one fillet meet cleanly where they share a corner. Put edges that meet at a corner in the same fillet for the neatest result.
+- Edges picked in one fillet meet cleanly where they share a corner. Where every edge at a corner is in the same fillet, the corner gets its own smooth surface: a ball's when the faces are square to each other and the sizes equal, otherwise a fitted patch that runs on smoothly from each fillet. Put edges that meet at a corner in the same fillet for the neatest result.
 - A fillet may run across the surface of an earlier fillet or chamfer and blend into it.
 - If a distance is too large for the faces beside an edge, the fillet is refused with a message such as "the faces beside edge-12 leave no room for a blend". Edges whose faces meet smoothly give "nothing to blend".
 - To change a fillet later, right-click it in the tree and choose **Edit Feature**, or select its body and click **Edit feature** in the Properties panel.

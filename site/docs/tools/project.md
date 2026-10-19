@@ -22,6 +22,7 @@ Brings geometry from outside the sketch onto its plane: entities of other sketch
   - body edges
   - body faces, flat or curved
 - Projecting a **face** puts its whole outline in the sketch as closed loops, holes included, so the sketch gets a surface you can extrude. A face also holds up better than separate edges when the body is rebuilt later.
+- A face's outline keeps the shape of its edges: a round edge comes in as one exact circle or arc, straight edges as lines, other curves as splines. (A model on the mesh engine gets short line segments instead.)
 - Items from the sketch being edited can't be projected ("you cannot select items from within the same sketch"). Neither can a projection: pick its source.
 - A circle on a tilted plane becomes an ellipse. An edge seen end-on to the sketch can't be projected.
 - Projected geometry is placed, not solved, so you can't drag it. Constrain and dimension other geometry to it instead.

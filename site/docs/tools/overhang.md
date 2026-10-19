@@ -15,10 +15,10 @@ Finds the faces of a feature that overhang the print direction and chamfers thei
 6. Click **Create** (or press Ctrl+Enter). **Cancel** or Escape takes the preview away.
 
 ## Options
-- **Overhang angle** — what counts as an overhang, in degrees from vertical: a vertical wall is 0, a flat ceiling 90. A face facing down past this angle (45 by default) is an overhang.
+- **Overhang angle** — what counts as an overhang, in degrees from vertical: a vertical wall is 0, a flat ceiling 90. A face facing down past this angle (45 by default) is an overhang. In a model with a `print::max_overhang_angle` parameter (one made from the 3D Print master file), a new Overhang's angle starts as that parameter.
 - **Lock** — locked, the chamfers slope at the overhang angle and **Chamfer angle** is grayed out. Unlock it to type a different chamfer angle, measured from the print direction.
 - **Print direction** — a vector: the way up while printing. Select it and press Delete to choose another.
-- **Feature** — the feature whose faces are checked. Only the faces that feature made count.
+- **Feature** — the feature whose faces are checked. Only the faces that feature made count; for a custom feature, the faces it made (a face it made picks the custom feature).
 - **Add material** (the default) — inside corners under an overhang get a wedge of material.
 - **Subtract material** — outside edges of an overhang are cut back.
 - **Both** — every edge of the overhanging faces.
