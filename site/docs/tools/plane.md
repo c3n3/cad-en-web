@@ -30,7 +30,7 @@ Creates a custom reference plane from existing geometry. You can then start sket
 
 ## Tips
 - To sketch on a cylinder for a [Wrap](wrap.md), pick a base plane and the cylinder's face. The new plane is parallel to the base plane and tangent to the cylinder. A face that can't touch such a plane is refused with a message.
-- Planes are listed under **Features** in the tree. Right-click a plane for **New Sketch** (which starts a sketch on it straight away), **Show** / **Hide**, or **Delete**.
+- Planes are listed under **Timeline** in the Model tab. Right-click a plane for **New Sketch** (which starts a sketch on it straight away), **Show** / **Hide**, or **Delete**.
 - Deleting a plane also deletes the sketches on it. The confirmation lists everything that goes with it.
 - Selecting a plane shows what it was built from in the Properties panel.
 - The three base planes are tinted with the colour of the axis they face: XY with Z's, YZ with X's, XZ with Y's. Planes you make stay grey.

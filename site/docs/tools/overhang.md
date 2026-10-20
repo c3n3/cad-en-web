@@ -10,7 +10,7 @@ Finds the faces of a feature that overhang the print direction and chamfers thei
 1. The **3D Prints** bag isn't on the ribbon at first: click the gear tab at the end of the ribbon to open the Tool Ribbon Editor, and drag **3D Prints** onto a tab.
 2. Make a **Vector** pointing the way the part is printed (up, away from the print bed), if the model has none yet.
 3. Click **Overhang**. Any sketch being edited is closed. When the model has exactly one vector, it is already in the **Print direction** box.
-4. Click a face the feature made (or the feature in the tree) to put it in the **Feature** box.
+4. Click a face the feature made (or the feature in the Model tab) to put it in the **Feature** box.
 5. The chamfers appear as you change the form, the faces they come from highlighted, with what was found below the boxes.
 6. Click **Create** (or press Ctrl+Enter). **Cancel** or Escape takes the preview away.
 
@@ -29,7 +29,7 @@ Finds the faces of a feature that overhang the print direction and chamfers thei
 - Each chamfer is as big as it can be: it removes the overhang completely, or stops where the face next to it runs out. With **Both**, the cuts are only as big as it takes to remove the overhang the added material left.
 - A curved face counts if any part of it overhangs.
 - Overhang is a live feature: change the model before it and the chamfers follow.
-- To change it later, right-click it in the tree and choose **Edit Feature**.
+- To change it later, right-click it in the Model tab and choose **Edit Feature**.
 
 ## See also
 - [Chamfer](chamfer.md) — bevel edges you pick yourself.

@@ -21,6 +21,8 @@ The kind of file is the last part of the name (`.caden`, `.acaden` ...), so Wind
 - **File › Save As...** offers both formats in the file type list at the bottom right of the dialog. JSON is chosen by default. For a file that is already Python, Python is chosen.
 - The first time a new model is saved, the dialog starts in the open workspace (with no workspace open, where **File › Open** starts).
 - In the Workspace panel, select one or more files (Ctrl or Shift click) and press Delete to move them to the recycle bin. CADen asks first, once for all of them; a file open in a tab closes.
+- Right-click a file or folder in the Workspace panel and choose **Reveal in File Explorer** to show it in the system's file navigator.
+- Drag files and folders in the Workspace panel to move them. Drop them on a folder, on a file to use that file's folder, or below the list for the workspace's top level. CADen asks first, and lists the files whose references change: an assembly's models, imported parameters, custom feature files and texture images. Those paths are updated so nothing breaks. A move can't be undone. If the folder already has something with the same name, choose **Replace** (the old one goes to the recycle bin) or **Skip**. Open tabs follow their files and keep their unsaved changes.
 - If you type the extension yourself (`bracket.py.caden`), that format is used.
 - **File › Save** keeps a file in the format it was opened in: a Python model stays Python.
 - A model made from a template is saved as JSON, whatever format the template is.

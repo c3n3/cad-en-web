@@ -4,7 +4,7 @@
 
 Pins a text note to a point in a sketch. The note has a leader line from the point to an underline, with your text above it.
 
-**Where:** Sketch tab › Documentation · **Shortcut:** Shift+A (while editing a sketch)
+**Where:** Sketch tab › Sketch Other · **Shortcut:** Shift+A (while editing a sketch)
 
 ## How to use
 1. Edit a sketch and click **Annotation**.
@@ -32,4 +32,4 @@ Pins a text note to a point in a sketch. The note has a leader line from the poi
 - [Project](project.md) — bring outside geometry in to annotate.
 - [Pattern](pattern.md) — another tool on the Sketch tab.
 
-[← Documentation](../bags/documentation.md) · [All documentation](../index.md)
+[← Sketch Other](../bags/sketch_other.md) · [All documentation](../index.md)

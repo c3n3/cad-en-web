@@ -14,6 +14,7 @@ The neutral tool: click to select items and drag to move them. CADen returns to 
    - **Right to left** (solid outline) takes only items completely inside it.
 4. Drag a point, line, circle or arc to move it. To move a whole shape, click its surface first, then drag the selected surface. The constraints get the final say, so a point that is held in place won't move.
 5. With items selected, the Properties panel shows their details and the constraints you can add.
+6. With one item selected, the **Constraints** list at the bottom of the Properties panel shows every constraint on it and on its ends, centre and other parts. Each row shows the constraint's icon and the item it is constrained to. A constraint on the item alone shows its name (**Horizontal**), and a dimension between its own parts names them (**l.a, l.b**). Click a row to show that constraint in the view, and press Delete to remove the selected rows.
 
 ## Options
 - **Select / Continuous select / Joined select** — use the small arrow on the button to switch variants.

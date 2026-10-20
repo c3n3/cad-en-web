@@ -17,11 +17,11 @@ Mirrors sketch geometry across a line. The mirrored copies stay symmetric to the
 ## Options
 - **Copy Entities** — ticked (the default) makes ordinary copies held to the originals by symmetry constraints. Unticked makes a Mirror item whose copies are derived: they are rebuilt from the originals and follow every change to them.
 - **Mirror line** — the line to mirror across. Any line works, including one from another sketch or a model axis.
-- **Entities** — what to mirror. You can also add whole sketches on the same plane from the tree. Select a row and press Delete to remove it.
+- **Entities** — what to mirror. You can also add whole sketches on the same plane from the Model tab. Select a row and press Delete to remove it.
 
 ## Tips
 - Click a box to choose which one your clicks go into. The active box has a coloured border and only accepts the right kind of item.
-- Only an unticked (derived) mirror can be edited later. Right-click it in the tree and choose **Edit Mirror**, or select one of its copies and use **Edit mirror** in the Properties panel. Copy Entities can't be changed while editing.
+- Only an unticked (derived) mirror can be edited later. Right-click it in the Model tab and choose **Edit Mirror**, or select one of its copies and use **Edit mirror** in the Properties panel. Copy Entities can't be changed while editing.
 - Deleting a copy made by a derived mirror asks whether to delete the whole mirror.
 - Copies made with Copy Entities ticked are normal geometry. Deleting the symmetry constraint frees them.
 - Points you joined with a coincident constraint stay joined in the copies, so a closed outline mirrors as a closed outline (and gets its own surface).

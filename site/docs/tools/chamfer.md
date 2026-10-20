@@ -26,7 +26,7 @@ Bevels the edges of a body with a flat, angled face.
 - A chamfer may run across an earlier fillet or chamfer and blend into it.
 - If the distance is too big for the faces beside an edge, the chamfer is refused with a message such as "the faces beside edge-7 leave no room for a blend".
 - If there are no bodies yet, the tool says "make a body first -- there are no edges to blend".
-- To change a chamfer later, right-click it in the tree and choose **Edit Feature**, or select its body and click **Edit feature** in the Properties panel.
+- To change a chamfer later, right-click it in the Model tab and choose **Edit Feature**, or select its body and click **Edit feature** in the Properties panel.
 - The form remembers the values you last used.
 
 ## See also

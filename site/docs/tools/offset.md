@@ -24,7 +24,7 @@ Makes copies of lines, arcs and circles a set distance to one side of the origin
 - An open chain or a single line is offset to the left of the direction it was drawn. A lone circle grows and a lone arc shrinks. Flip reverses any of these.
 - If the offset can't be built, a red message explains why and nothing is created. For example, "the offset is bigger than the shape", or two offsets that do not meet.
 - The copies follow their originals. Dragging a copy moves the original it came from. You can add constraints to copies, and a change that would lose a constrained copy is refused.
-- To change an offset later, right-click it in the tree and choose **Edit Offset**, or select it or one of its copies and use **Edit offset** in the Properties panel. If the new values can't be built, the offset stays as it was.
+- To change an offset later, right-click it in the Model tab and choose **Edit Offset**, or select it or one of its copies and use **Edit offset** in the Properties panel. If the new values can't be built, the offset stays as it was.
 - The form remembers the distance and side you last used.
 
 ## See also

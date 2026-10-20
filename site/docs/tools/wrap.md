@@ -28,7 +28,7 @@ Wraps a sketch's surfaces onto a curved face of a body, then raises them out of 
 - Cylinders and cones unroll exactly, so lengths are kept. Other curved faces (spheres, fillets) get the sketch laid out over the surface with as little stretching as possible.
 - Shapes may run past the face's edges, or overlap themselves if they go all the way round.
 - Flat faces are refused. Use [Extrude](extrude.md) or [Cut Extrude](cut_extrude.md) for those.
-- Once used, the sketch is hidden. To change the wrap later, right-click it in the tree and choose **Edit Feature**.
+- Once used, the sketch is hidden. To change the wrap later, right-click it in the Model tab and choose **Edit Feature**.
 - The form reopens with the values you used last time.
 - For a faster relief that leaves the body unchanged, use **Texture Wrap** from the Wrap button's drop-down (see [Texture](texture.md)).
 

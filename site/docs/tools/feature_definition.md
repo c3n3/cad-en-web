@@ -9,10 +9,10 @@ Turns sketches and features you have drawn into a custom feature: a tool other m
 ## How to use
 1. Open or create a custom feature file (`.json.fcaden` or `.py.fcaden`) and draw the feature, together with whatever it is drawn on. For a nut slot, that means a plate with a hole, then a sketch on the plate and a cut.
 2. Click **Feature Definition**. The Properties panel shows its first step.
-3. Click the sketches and features the custom feature is made of, in the tree or the view. Click one again in the view to take it out.
+3. Click the sketches and features the custom feature is made of, in the Model tab or the view. Click one again in the view to take it out.
 4. Click **Next**. The panel lists everything they need from outside themselves: a hole's edge, a face, a feature that comes before them.
 5. Give each one a name, such as **Hole Arc** or **Stop Face**. A model using the custom feature picks these.
-6. Click **Done**. The **Feature Definition** entry appears in the tree, in gold.
+6. Click **Done**. The **Feature Definition** entry appears in the Model tab, in gold.
 
 ## Options
 - **Items** — the sketches and features that make up the custom feature, in timeline order.

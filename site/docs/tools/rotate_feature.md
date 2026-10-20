@@ -9,7 +9,7 @@ Repeats 3D features or whole bodies around an axis, making a circular (rotationa
 ## How to use
 1. Optionally select the bodies first (click their faces). They become the first items.
 2. Click **Rotate**. If there is no axis yet, the **Axis** box is active. Click a model axis, a sketch line or a straight body edge.
-3. Click the **Items** box, then click a body's face to add the feature that made that face. Double-click a face to use the whole body instead. You can also click features or bodies in the tree.
+3. Click the **Items** box, then click a body's face to add the feature that made that face. Double-click a face to use the whole body instead. You can also click features or bodies in the Model tab.
 4. Set **Copies**, and **Angle** or **Spacing**. A ghost preview shows the copies.
 5. Click **Create** (or press Ctrl+Enter). Escape or **Cancel** leaves without changes.
 
@@ -26,7 +26,7 @@ Repeats 3D features or whole bodies around an axis, making a circular (rotationa
 - A face click adds the *feature* that produced the face, such as an Extrude or a Cut Extrude. Each copy then behaves like that feature: a raise merges into the bodies it touches, and a cut subtracts from every body it crosses.
 - Double-clicking swaps that feature for its whole body, which is then copied as a separate solid (merged as Auto Merge or your choice says).
 - The pattern follows its axis and its source features. Change the original and every copy updates.
-- To change it later, right-click it under **Features** in the tree and choose **Edit Feature**.
+- To change it later, right-click it under **Timeline** in the Model tab and choose **Edit Feature**.
 - An unsuitable axis pick is refused with a message in the status bar.
 - The form reopens with the copies, angle, spacing and merge setting you used last.
 

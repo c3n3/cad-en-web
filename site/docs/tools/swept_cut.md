@@ -28,7 +28,7 @@ Cuts material out of bodies by sweeping a sketch's surfaces along a path. Use it
 - For a thread, sweep the profile along a helix with **Both ways**.
 - If the status bar says "cut nothing", the swept shape misses every body, or the bodies have a different tag.
 - Problems such as "the path is not continuous" or "the sweep runs into itself" show in red and stop Create.
-- To change the cut later, right-click it in the tree and choose **Edit Feature**.
+- To change the cut later, right-click it in the Model tab and choose **Edit Feature**.
 - The form remembers the values you last used.
 
 ## See also

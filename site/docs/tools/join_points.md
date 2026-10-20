@@ -4,7 +4,7 @@
 
 Joins the points of the items you choose that lie close together, with coincident constraints. Use it to close the small gaps in an outline that was drawn or imported without its ends snapped together.
 
-**Where:** Sketch tab › Sketch basics
+**Where:** Sketch tab › Sketch Other
 
 ## How to use
 1. Edit a sketch. Optionally select the items to join first.
@@ -29,4 +29,4 @@ Joins the points of the items you choose that lie close together, with coinciden
 - [Select](select.md) — Joined select picks a whole joined outline with one click
 - [Trim](trim.md) — cut overlapping pieces away
 
-[← Sketch basics](../bags/sketch_basics.md) · [All documentation](../index.md)
+[← Sketch Other](../bags/sketch_other.md) · [All documentation](../index.md)

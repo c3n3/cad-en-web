@@ -9,6 +9,8 @@ add your own.
 - **File › Create New** lists every master file. Pick one to get an unsaved **Untitled** tab with
   its contents. **Ctrl+N** is **Create New › Model**, an empty model.
 - The welcome page shows the same master files as tiles. Your own show a picture of their bodies.
+- The welcome page's first tile, **Open Workspace**, isn't a master file: it opens a folder as a workspace, as **File › Open Workspace** does.
+- **Try a demo!**, at the top right of the welcome page, opens the [demo workspace](demo.md).
 - In the Workspace panel, right-click a folder and choose **Create New**, then a master file.
   Type the new file's name: it is a copy of the master, in the same file format, with your name.
 - A custom feature made from a master goes in the workspace's `.caden/custom_features` folder, as a new custom

@@ -2,7 +2,7 @@
 
 Reads distances, angles and sizes off what you select, without changing anything. It works with or without a sketch open, on sketch geometry and on bodies.
 
-**Where:** Sketch tab › Sketch basics · **Shortcut:** M
+**Where:** Sketch tab › Sketch Other · **Shortcut:** M
 
 ## How to use
 1. Click **Measure** (or press M while the 3D view has the keyboard and no tool form is open in the Properties panel). The cursor becomes a measuring stick and the Properties panel opens with the Measure options. An open sketch stays open.
@@ -40,4 +40,4 @@ The options are remembered between sessions.
 - [Select](select.md) — the same selection, without the measurements
 - [Dimension](dimension.md) — a dimension that drives the sketch
 
-[← Sketch basics](../bags/sketch_basics.md) · [All documentation](../index.md)
+[← Sketch Other](../bags/sketch_other.md) · [All documentation](../index.md)

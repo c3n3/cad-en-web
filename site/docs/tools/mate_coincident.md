@@ -21,7 +21,7 @@ Puts two flat faces on one plane, facing each other, with an optional gap betwee
 ## Tips
 - Fixed models never move; the other model comes to meet them.
 - A constraint that can't be met together with the others is refused, and the form says so.
-- Right-click it in the tree to **Edit Constraint** or **Suppress** it; Delete removes it.
+- Right-click it in the Model tab to **Edit Constraint** or **Suppress** it; Delete removes it.
 
 ## See also
 - [Parallel](mate_parallel.md) — only line up the faces' directions.

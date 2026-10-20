@@ -4,7 +4,7 @@
 
 Cuts away the piece of a curve between the places where other curves cross it. Click a piece to remove it, or drag across several pieces to remove them all.
 
-**Where:** Sketch tab › Sketch drawing · **Shortcut:** X
+**Where:** Sketch tab › Sketch Other · **Shortcut:** X
 
 ## How to use
 1. Open a sketch and click **Trim**. It only works inside a sketch.
@@ -31,4 +31,4 @@ Cuts away the piece of a curve between the places where other curves cross it. C
 - [Circle](circle.md) — trim a circle to get an arc that ends exactly at crossings
 - [Select](select.md) — delete whole items instead
 
-[← Sketch drawing](../bags/sketch_drawing.md) · [All documentation](../index.md)
+[← Sketch Other](../bags/sketch_other.md) · [All documentation](../index.md)

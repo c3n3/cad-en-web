@@ -21,7 +21,7 @@ Write a number with a unit and CADen converts it to the model's unit: `8mm + 10i
 
 ![Parameters](../videos/values_parameters.webp)
 
-A parameter is a named value the whole model can use. Right-click **Parameters** in the tree
+A parameter is a named value the whole model can use. Right-click **Parameters** in the Config tab
 and choose **Add parameter**, then give it a name (`box_height`) and a value (`20mm`) in the
 Properties panel.
 

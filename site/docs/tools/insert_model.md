@@ -13,12 +13,13 @@ Brings a model file (or another assembly) into the assembly. Each model keeps it
 4. Click to place it. Press Escape instead to leave it out.
 
 ## Tips
-- The first model inserted is **fixed**: it stays where it is and the others move around it. Right-click any model in the tree to **Fix** or **Unfix** it.
+- The first model inserted is **fixed**: it stays where it is and the others move around it. Right-click any model in the Model tab to **Fix** or **Unfix** it.
 - Drag a model with the left mouse button to move it parallel to the screen. Select it, then drag with the right mouse button to turn it about its centre (a right-click without dragging still opens the menu). Both moves stay within what its constraints allow.
 - A model in other units is brought in at its real size (a 1 in part is 25.4 mm long in a mm assembly).
 - Inserting the same model twice gives it two names (`arm`, `arm-2`); both read the same file.
 - An inserted assembly moves as one piece, held together by its own constraints.
-- Double-click a model (in the view or the tree) to open its file in a tab. Save it there and the assembly updates.
+- Double-click a model (in the view or the Model tab) to open its file in a tab. Save it there and the assembly updates. So does saving a file it takes parameters from.
+- A model's textures come with it: they show in the assembly and go into its STL.
 
 ## See also
 - [Coincident](mate_coincident.md) — put two flat faces together.

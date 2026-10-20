@@ -28,7 +28,7 @@ Sweeps a sketch's surfaces along a path to make solid bodies. Optionally the pro
 - The sweep starts where the path meets the profile's plane. If the path ends at the plane, try Flip or Both ways.
 - A closed path, such as a circle, goes once all the way round. A circle can't be joined to other path pieces.
 - Common problems: "the path is not continuous", "the path doesn't meet the profile's sketch plane", and "the profile is wider than the path's bend".
-- To change the sweep later, right-click it in the tree and choose **Edit Feature**, or select its body and click **Edit feature**.
+- To change the sweep later, right-click it in the Model tab and choose **Edit Feature**, or select its body and click **Edit feature**.
 - The form remembers the values you last used.
 
 ## See also

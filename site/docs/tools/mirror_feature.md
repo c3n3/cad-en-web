@@ -9,7 +9,7 @@ Mirrors 3D features or whole bodies across a plane, keeping the originals. A mir
 ## How to use
 1. Optionally select the bodies first (click their faces). They become the first items.
 2. Click **Mirror**. If there is no plane yet, the **Plane** box is active. Click a plane, a sketch (to use its plane) or a flat body face.
-3. Click the **Items** box, then click a body's face to add the feature that made that face. Double-click a face to use the whole body instead. You can also click features or bodies in the tree.
+3. Click the **Items** box, then click a body's face to add the feature that made that face. Double-click a face to use the whole body instead. You can also click features or bodies in the Model tab.
 4. A ghost preview shows the mirrored result.
 5. Click **Create** (or press Ctrl+Enter). Escape or **Cancel** leaves without changes.
 
@@ -24,7 +24,7 @@ Mirrors 3D features or whole bodies across a plane, keeping the originals. A mir
 - Double-clicking swaps that feature for its whole body, which is then mirrored as a separate solid (merged as Auto Merge or your choice says).
 - To mirror across a plane that doesn't exist yet, make one first with the [Plane](plane.md) tool.
 - The mirror follows its plane and its source features. Edit the original and the mirrored copy updates.
-- To change it later, right-click it under **Features** in the tree and choose **Edit Feature**.
+- To change it later, right-click it under **Timeline** in the Model tab and choose **Edit Feature**.
 - An unsuitable plane pick is refused with a message in the status bar.
 - The Mirror on the Sketch tab is a different tool: it mirrors sketch geometry across a line.
 

@@ -23,7 +23,7 @@ Chooses the tag that new sketch geometry is put on, such as base or construction
 - The drawing style only applies to items drawn after you set it. It lasts until you change it back or restart the program. The tag's own default style is not changed.
 - Inside a sketch, press T to open a tag menu at the cursor. Up/Down or T again moves through the tags, Enter picks one and Escape closes the menu without changing anything. T is also the [Slot](slot.md) tool's default key, so the same press arms Slot too. Give one of them another key in **Keybindings** if that gets in the way.
 - If you draw on a tag that is hidden, the tag is shown again.
-- Create or edit tags in the **Tags** group of the tree.
+- Create or edit tags in the **Tags** group of the Config tab.
 - To retag items later, right-click them in the view and use **Tag**. **Style...** on the same menu restyles them.
 
 ## See also

@@ -20,7 +20,7 @@ Repeats sketch geometry: along a direction (add a second direction for a grid), 
 - **Copy Entities** — ticked (the default) makes ordinary copies held by constraints. Unticked makes a Pattern item whose copies are derived and follow the originals.
 - **Direction** — a sketch line, a model axis or a straight body edge to repeat along.
 - **Centre / axis** (circular) — a point, or an axis perpendicular to the sketch.
-- **Entities** — points, lines, arcs and circles. Clicking a sketch surface adds its outline. Sketches on the same plane can be added from the tree.
+- **Entities** — points, lines, arcs and circles. Clicking a sketch surface adds its outline. Sketches on the same plane can be added from the Model tab.
 - **Copies** / **Spacing** — how many instances in total, the original included, and how far apart they are.
 - **Direction 2**, **Copies 2**, **Spacing 2** — optional. The whole row repeats along a second direction to make a grid.
 - **Initial Item Count** (circular) — how many items the first ring holds.
@@ -31,7 +31,7 @@ Repeats sketch geometry: along a direction (add a second direction for a grid), 
 ## Tips
 - Every box accepts an expression. `n` (the index along the direction, or the ring number, from 0) and `count` can be used in every box except Copies, Initial Item Count and Rings. For example, a Ring spacing of `10 * n` spreads the rings out.
 - A red message explains what is missing or wrong, for example "the items sit on the centre, so the rings have nowhere to go". **Create** waits until it is fixed.
-- Only an unticked (derived) Pattern can be edited later. Right-click it in the tree and choose **Edit Pattern**, or use **Edit pattern** in the Properties panel. Kind and Copy Entities are fixed while editing.
+- Only an unticked (derived) Pattern can be edited later. Right-click it in the Model tab and choose **Edit Pattern**, or use **Edit pattern** in the Properties panel. Kind and Copy Entities are fixed while editing.
 - The form remembers the kind and values you last used.
 
 ## See also

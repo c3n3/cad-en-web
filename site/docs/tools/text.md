@@ -4,7 +4,7 @@
 
 Lays out text along a line, arc, circle, polyline or spline in the sketch. Each letter becomes a 2D surface that you can extrude, cut or wrap.
 
-**Where:** Sketch tab › Sketch drawing · **Shortcut:** Alt+T
+**Where:** Sketch tab › Sketch Other · **Shortcut:** Alt+T
 
 ## How to use
 1. Open a sketch and draw the path the text should follow. Text only works inside a sketch.
@@ -15,8 +15,8 @@ Lays out text along a line, arc, circle, polyline or spline in the sketch. Each 
 
 ## Options
 - **Path** — the curve the text runs along. On a straight line the letters stand upright. On an arc or circle they read along the outside. A circle's text starts at the top.
-- **Text** — what to write. Enter starts a new line, placed below the one before.
-- **Font**, **Bold**, **Italic** — any installed font by name. If the font is missing, Times New Roman is used instead.
+- **Text** — what to write. Enter starts a new line, placed below the one before. A text parameter's name in braces, such as `{label::words}`, is replaced by its value.
+- **Font**, **Bold**, **Italic** — any installed font by name. If the font is missing, Times New Roman is used instead. The font can be a text parameter too: type `{label::font}`.
 - **Size** — the height of a capital letter. It accepts units and parameters.
 - **Letter spacing**, **Word spacing** — extra space between characters and at each space. Letter spacing may be negative.
 - **Line spacing** — the distance between lines, in multiples of the size.
@@ -38,4 +38,4 @@ Lays out text along a line, arc, circle, polyline or spline in the sketch. Each 
 - [Extrude](extrude.md) — raise or cut the letters
 - [Wrap](wrap.md) — wrap the letters onto a curved face
 
-[← Sketch drawing](../bags/sketch_drawing.md) · [All documentation](../index.md)
+[← Sketch Other](../bags/sketch_other.md) · [All documentation](../index.md)

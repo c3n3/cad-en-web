@@ -28,7 +28,7 @@ Creates a helix (a coil-shaped reference curve) around an axis or a circle. It i
 
 ## Tips
 - Problems appear in red in the form, and **Create** stays disabled until they are fixed. Examples: a taper that shrinks the radius to nothing before the last turn, or a zero radius.
-- To change a helix later, right-click it in the tree and choose **Edit Helix**.
+- To change a helix later, right-click it in the Model tab and choose **Edit Helix**.
 - A helix follows its axis or circle when that geometry moves.
 - The form reopens with the values you used last.
 

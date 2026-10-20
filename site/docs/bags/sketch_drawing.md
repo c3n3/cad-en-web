@@ -12,9 +12,7 @@ Draw the curves and shapes a sketch is made of. These tools are on the **Sketch*
 | [Rectangle](../tools/rectangle.md) | A rectangle from two corners, or from its centre. |
 | [Slot](../tools/slot.md) | A slot from its two centres and its radius. |
 | [Polygon](../tools/polygon.md) | A regular polygon from its centre and a corner. |
-| [Trim](../tools/trim.md) | Cut curves back to where they cross. |
 | [Spline](../tools/spline.md) | A smooth curve through the points you click. |
-| [Text](../tools/text.md) | Text as sketch geometry, along a line. |
 
 Right-click any tool button and choose **Help** to see its demonstration and page.
 

@@ -7,7 +7,7 @@ Pushes a sketch's surfaces straight out from the sketch plane to make solid bodi
 **Where:** Features tab › 3D basics · **Shortcut:** none (available from the command palette, Ctrl+Shift+P)
 
 ## How to use
-1. Edit a sketch, or select a sketch (or something in one) in the view or tree.
+1. Edit a sketch, or select a sketch (or something in one) in the view or the Model tab.
 2. Click **Extrude**. The sketch's surfaces are filled in automatically, and a preview of the solid appears.
 3. To change the surfaces, click the **Surfaces** box and click surfaces in the view. Clicking a picked surface removes it.
 4. Set the **End**, and the **Start** if the solid should not begin at the sketch plane.
@@ -30,7 +30,7 @@ Pushes a sketch's surfaces straight out from the sketch plane to make solid bodi
 - When the form opens, it starts on its first empty pick box. If a remembered End is an Entity with no pick yet, that box is active first.
 - Problems show in red and stop Create. Examples: "the start and the end are at the same height, so there is nothing to extrude" or "the draft closes the profile before the end".
 - After Create, the sketch is hidden and its edit closes.
-- To change the extrude later, right-click it in the tree and choose **Edit Feature**, or select a body it made and click **Edit feature** in the Properties panel.
+- To change the extrude later, right-click it in the Model tab and choose **Edit Feature**, or select a body it made and click **Edit feature** in the Properties panel.
 - The form remembers the values you last used, but not the picks.
 
 ## See also

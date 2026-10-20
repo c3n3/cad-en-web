@@ -1,15 +1,17 @@
-## CADen 0.5.2 Alpha
+## CADen 0.5.3 Alpha
 
-- Auto Merge replaces Merge result (Extrude, Sweep, Rotate Extrude, Rotate / Mirror Feature): it joins the touching bodies of the same tag that are shown when you click Create, and remembers which they were. Untick it for Merge with all (every touching body, re-checked whenever the model rebuilds) or to pick the bodies to merge with
-- Change Sketch Plane: right-click a sketch in the tree to move it onto another plane or flat face; the drawing keeps its own X and Y
-- Overhang's Both option adds material first, then cuts only what still overhangs, with the smallest chamfer that fixes it
-- Projecting an arc or circle seen edge-on now gives a line (its shadow)
-- Measure: two faces show the minimum distance between them
-- The line or circle being drawn shows through bodies, as the sketch's own geometry does
-- M opens Measure only when no tool form is open, so typing "mm" in a form's value box no longer opens it
-- A new model's first save starts in the open workspace; Delete in the Workspace panel moves the selected files to the recycle bin after asking
-- Right-click Parameters in the tree to import parameters from another model
-- A refused constraint now lists the constraints that stand in the way
-- Fixes: a point on a body's rim seen edge-on; a revolve merged into two bodies refused by mistake; concentric arcs whose centres came apart while dragging; mirrored arc edges drawn the long way round
+- Try a demo! on the welcome page opens a demo workspace: a box and lid made from parameters, and an assembly where the lid slides on and off. Each time it opens a fresh copy, and it isn't listed in Recent Workspaces
+- Assemblies show their models' textures, and include them in their STL
+- Textured models open faster, and dragging parts in an assembly is much smoother
+- A selected sketch item's Properties list every constraint on it and its ends, centre and other parts. Click a row to show it in the view, and press Delete to remove it
+- Drag files and folders in the Workspace panel to move them. CADen lists the files whose references change and updates them
+- When a newer version is out, a notice in the top right links to the What's New page
+- The tree view is now the Model tab. Tags and Parameters have moved to a Config tab beside it
+- The Action history is hidden at first; View › Action history opens it as a floating window
+- Right-click a file or folder in the Workspace panel to Reveal in File Explorer
+- Measure, Join Points, Trim, Text and Annotation are in a new Sketch Other tool bag
+- Thinner drawing cursors; the welcome page has an Open Workspace tile and smaller pictures
+- A Text's font can come from a text parameter, typed as `{group::font}`
+- Fixes: an assembly now updates when a file its parts take parameters from is saved; reopening the Workspace panel no longer squeezes the Model tab
 
 [Every release's notes](/docs/#releases)

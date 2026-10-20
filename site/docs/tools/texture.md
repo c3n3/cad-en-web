@@ -29,7 +29,7 @@ Covers body faces with a repeating raised or sunk pattern, such as bricks, hexag
 ## Tips
 - By default one tile covers a tenth of the face area. Later textures start from the settings you used last.
 - Each face can carry only one texture. Picking a face that already has one is refused.
-- Textures live in the **Textures** group in the tree, outside the timeline. Right-click a texture to **Edit Texture**, **Move Up** / **Move Down** (display order only) or **Delete**. Right-click the group itself to **Add Texture**.
+- Textures live in the **Textures** group in the Model tab, outside the timeline. Right-click a texture to **Edit Texture**, **Move Up** / **Move Down** (display order only) or **Delete**. Right-click the group itself to **Add Texture**.
 - If an edit renames a textured face, the texture shows a missing-surface error until you edit it and pick the face again.
 - **Texture Wrap** is in the drop-down on the Wrap button. As with Wrap, select a sketch (or something in it) first. It lays a sketch's surfaces onto one face as a texture relief, placed exactly as [Wrap](wrap.md) would place them. It works on flat faces too and is usually quicker and sturdier. Its form has Mode, Surfaces, Face, Depth and Flip, plus **Smooth** (0% gives straight walls; 100% softens each edge over twice the depth) and **Detail** (the finest mesh step along the outline, 0.1 mm by default). Anything past the face's edges is clipped. It appears in the Textures group and leaves the body unchanged.
 

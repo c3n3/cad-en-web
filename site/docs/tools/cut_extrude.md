@@ -28,7 +28,7 @@ Cuts a sketch's shape out of existing bodies, pushing it straight from the sketc
 - A body the cut removes completely disappears.
 - Values accept units and expressions.
 - Problems show in red and stop Create, e.g. "nothing to extrude through along the sketch normal".
-- To change the cut later, right-click it in the tree and choose **Edit Feature**, or select the body and click **Edit feature** in the Properties panel.
+- To change the cut later, right-click it in the Model tab and choose **Edit Feature**, or select the body and click **Edit feature** in the Properties panel.
 - The form remembers the values you last used.
 
 ## See also

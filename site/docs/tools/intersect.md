@@ -23,7 +23,7 @@ Splits overlapping bodies into all their separate pieces, then lets you choose w
 - Bodies that don't touch at all don't produce an overlap piece.
 - More than six bodies are refused, because the number of possible pieces doubles with each body.
 - A dropped piece stays dropped when the input bodies change shape later, because pieces are identified by which bodies they lie inside, not by their position in the list.
-- To change the kept pieces later, right-click the feature under **Features** in the tree and choose **Edit Feature**. The pieces come back on screen to switch on and off.
+- To change the kept pieces later, right-click the feature under **Timeline** in the Model tab and choose **Edit Feature**. The pieces come back on screen to switch on and off.
 
 ## See also
 - [Join](join.md) — unite touching bodies into one instead

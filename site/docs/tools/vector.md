@@ -32,7 +32,7 @@ Creates a reference vector: a direction and a length, starting at the origin and
 - A vector follows the geometry it was picked from. If that geometry is deleted, the vector shows an error.
 - A unitless vector is drawn at a fixed size relative to the model (times its magnitude). A length vector is drawn at its true length. Vectors in other units are not drawn.
 - The arrow shows through bodies so it stays visible.
-- To change a vector later, including its name, right-click it in the tree and choose **Edit Vector**.
+- To change a vector later, including its name, right-click it in the Model tab and choose **Edit Vector**.
 
 ## See also
 - [Plane](plane.md) — other reference geometry

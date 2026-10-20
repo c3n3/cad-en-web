@@ -26,14 +26,6 @@
           {
             "text": "Dimension",
             "link": "/docs/tools/dimension"
-          },
-          {
-            "text": "Measure",
-            "link": "/docs/tools/measure"
-          },
-          {
-            "text": "Join Points",
-            "link": "/docs/tools/join_points"
           }
         ]
       },
@@ -75,16 +67,8 @@
             "link": "/docs/tools/polygon"
           },
           {
-            "text": "Trim",
-            "link": "/docs/tools/trim"
-          },
-          {
             "text": "Spline",
             "link": "/docs/tools/spline"
-          },
-          {
-            "text": "Text",
-            "link": "/docs/tools/text"
           }
         ]
       },
@@ -116,10 +100,26 @@
         ]
       },
       {
-        "text": "Documentation",
-        "link": "/docs/bags/documentation",
+        "text": "Sketch Other",
+        "link": "/docs/bags/sketch_other",
         "collapsed": true,
         "items": [
+          {
+            "text": "Measure",
+            "link": "/docs/tools/measure"
+          },
+          {
+            "text": "Join Points",
+            "link": "/docs/tools/join_points"
+          },
+          {
+            "text": "Trim",
+            "link": "/docs/tools/trim"
+          },
+          {
+            "text": "Text",
+            "link": "/docs/tools/text"
+          },
           {
             "text": "Annotation",
             "link": "/docs/tools/annotation"
@@ -331,6 +331,10 @@
         "link": "/docs/guides/ai"
       },
       {
+        "text": "The demo workspace",
+        "link": "/docs/guides/demo"
+      },
+      {
         "text": "Bug reports",
         "link": "/docs/guides/bug_reports"
       }
@@ -339,6 +343,10 @@
   {
     "text": "Releases",
     "items": [
+      {
+        "text": "0.5.3 Alpha",
+        "link": "/docs/releases/0.5.3a1"
+      },
       {
         "text": "0.5.2 Alpha",
         "link": "/docs/releases/0.5.2a1"
