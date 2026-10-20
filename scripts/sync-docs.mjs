@@ -89,4 +89,25 @@ for (const line of fs.readFileSync(path.join(outDocs, 'index.md'), 'utf8').split
 }
 fs.writeFileSync(path.join(outGenerated, 'sidebar.json'), JSON.stringify(sidebar, null, 2))
 
+// designs/common/general_issues3.md: the What's New page (the app's update notice links
+// there) -- the newest release's notes, the first entry of the index's Releases list.
+const releaseLink = /^- \[([^\]]+)\]\((releases\/[^)]+\.md)\)/
+const newest = fs
+  .readFileSync(path.join(outDocs, 'index.md'), 'utf8')
+  .split(/\r?\n/)
+  .map((l) => l.match(releaseLink))
+  .find(Boolean)
+if (newest) {
+  const notes = fs
+    .readFileSync(path.join(outDocs, newest[2]), 'utf8')
+    .split(/\r?\n/)
+    .filter((l) => !/^# /.test(l))
+    .join('\n')
+    .trim()
+  fs.writeFileSync(
+    path.join(outGenerated, 'latest-release.md'),
+    `## CADen ${newest[1]}\n\n${notes}\n\n[Every release's notes](/docs/#releases)\n`
+  )
+}
+
 console.log(`sync-docs: copied ${srcDocs} -> ${path.relative(webRoot, outDocs)}`)
