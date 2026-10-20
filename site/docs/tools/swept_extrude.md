@@ -21,7 +21,8 @@ Sweeps a sketch's surfaces along a path to make solid bodies. Optionally the pro
 - **Direction** — **One way** runs from the profile to one end of the path, and **Flip** picks the other end. **Both ways** runs to both ends.
 - **Scale** — **None**, **Start & End** (the size at the start and at the end, e.g. 1 to 0 for a point), or **Function of p**, where `p` runs from 0 to 1 along the path.
 - **Twist** — **None**, **Total angle**, **Per unit length**, or **Function of p**, in degrees.
-- **Merge result** — on by default. The result joins touching bodies with the same tag.
+- **Auto Merge** — on by default. The result joins the touching bodies with the same tag that are shown when you click Create or Update. CADen saves which bodies those were, so hiding or showing a body later changes nothing.
+  - Untick it to choose instead: tick **Merge with all** to join every touching body with the same tag, hidden or not, checked again each time the model rebuilds; or pick the bodies to merge with in the list (each one it touches joins it). Pick none for a separate body.
 
 ## Tips
 - The sweep starts where the path meets the profile's plane. If the path ends at the plane, try Flip or Both ways.

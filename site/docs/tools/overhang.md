@@ -21,12 +21,12 @@ Finds the faces of a feature that overhang the print direction and chamfers thei
 - **Feature** — the feature whose faces are checked. Only the faces that feature made count; for a custom feature, the faces it made (a face it made picks the custom feature).
 - **Add material** (the default) — inside corners under an overhang get a wedge of material.
 - **Subtract material** — outside edges of an overhang are cut back.
-- **Both** — every edge of the overhanging faces.
+- **Both** — material is added first, as with Add material. Only if some of an overhang is still left after that is it cut, with the one smallest chamfer that removes what is left (on each face still overhanging). If no single chamfer can remove it, that face's outside edges are cut as with Subtract material.
 - **Ignore Failures** — off by default: if a chamfer can't be made at an edge, the feature fails and says which edge. Tick it to skip such edges and keep the rest.
 
 ## Tips
 - The lowest faces that face straight down are the print bed and are never chamfered.
-- Each chamfer is as big as it can be: it removes the overhang completely, or stops where the face next to it runs out.
+- Each chamfer is as big as it can be: it removes the overhang completely, or stops where the face next to it runs out. With **Both**, the cuts are only as big as it takes to remove the overhang the added material left.
 - A curved face counts if any part of it overhangs.
 - Overhang is a live feature: change the model before it and the chamfers follow.
 - To change it later, right-click it in the tree and choose **Edit Feature**.

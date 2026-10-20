@@ -5,7 +5,7 @@ Reads distances, angles and sizes off what you select, without changing anything
 **Where:** Sketch tab › Sketch basics · **Shortcut:** M
 
 ## How to use
-1. Click **Measure** (or press M). The cursor becomes a measuring stick and the Properties panel opens with the Measure options. An open sketch stays open.
+1. Click **Measure** (or press M while the 3D view has the keyboard and no tool form is open in the Properties panel). The cursor becomes a measuring stick and the Properties panel opens with the Measure options. An open sketch stays open.
 2. Select one or two items the normal way: click, Shift- or Ctrl-click to add, or drag a box.
 3. The measurement is drawn in the view with labels next to the geometry, and every value is listed in the Properties panel.
 4. Double-click a label to copy its number. A small box opens at the label with the number selected; Escape or a click elsewhere closes it.
@@ -21,7 +21,7 @@ What you select decides what is measured:
 - **A point and a line** — the shortest distance to the line, with its X / Y / Z distances.
 - **Two lines** — parallel: the gap between them. Not parallel: the angle between them (0–90°) and the shortest distance.
 - **An arc or circle with a point, a line, or another arc or circle** — the distance from the centre, the minimum and the maximum. All three are listed; the one chosen under **Arc distance** is drawn.
-- **Anything with a face, spline or body edge** — the shortest distance. Two flat faces also show the angle between them, and parallel ones the gap.
+- **Anything with a face, spline or body edge** — the shortest distance, drawn in the view. Two faces show the minimum distance between them; two flat faces also show the angle between them, and parallel ones the gap between their planes (listed in the Properties panel).
 - Three or more items selected: nothing is measured.
 
 Properties panel:

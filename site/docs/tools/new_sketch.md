@@ -17,6 +17,7 @@ Starts a new 2D sketch on a plane or a flat face of a body and opens it for edit
 - Press Escape while the planes are showing to cancel without making a sketch.
 - You don't have to click **New Sketch** first. Picking a drawing tool such as [Line](line.md) outside a sketch starts the plane pick for you, and that tool is ready as soon as you click a plane.
 - In the tree, right-click a plane or a sketch and choose **New Sketch** to skip the plane pick. Right-click a sketch and choose **Edit Sketch** to reopen it.
+- To move a sketch to another plane, right-click it in the tree and choose **Change Sketch Plane**. The Properties panel shows its plane; click another plane or a flat face of a body to replace it, then click **Update**. The drawing keeps its own X and Y on the new plane. Only planes and faces that come before the sketch can be picked: the model is shown as it was before the sketch while you choose. **Cancel** or Escape leaves it where it was, and Ctrl+Z undoes the change.
 - A sketch you leave without drawing anything in it is removed automatically.
 - New Sketch and Exit Sketch are also in the command palette (Ctrl+Shift+P), where you can give them a key in **Keybindings**.
 - [Dimension](dimension.md), [Trim](trim.md) and [Text](text.md) only work inside a sketch, so their buttons are greyed out until you start or open one.

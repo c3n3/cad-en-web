@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "cad-en-web-preview",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["vitepress", "preview", "site", "--port", "4173"],
+      "port": 4173
+    }
+  ]
+}

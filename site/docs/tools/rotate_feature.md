@@ -19,11 +19,12 @@ Repeats 3D features or whole bodies around an axis, making a circular (rotationa
 - **Copies** — the total number of instances, including the original (2 to 999).
 - **Angle** — the total angle of the pattern in degrees (360 to start with). Each step is the angle divided by the copies.
 - **Spacing** — degrees between instances. If you fill it in, it replaces the Angle; leave it empty to use the Angle.
-- **Merge result** — on by default. Copies that touch or overlap a body with the same tag join it into one body.
+- **Auto Merge** — on by default. Each copy joins the touching bodies with the same tag that are shown when you click Create or Update. CADen saves which bodies those were, so hiding or showing a body later changes nothing.
+  - Untick it to choose instead: tick **Merge with all** to join every touching body with the same tag, hidden or not, checked again each time the model rebuilds; or pick the bodies to merge with in the list (each one it touches joins it). Pick none for a separate body.
 
 ## Tips
 - A face click adds the *feature* that produced the face, such as an Extrude or a Cut Extrude. Each copy then behaves like that feature: a raise merges into the bodies it touches, and a cut subtracts from every body it crosses.
-- Double-clicking swaps that feature for its whole body, which is then copied as a separate solid (merged if Merge result is on).
+- Double-clicking swaps that feature for its whole body, which is then copied as a separate solid (merged as Auto Merge or your choice says).
 - The pattern follows its axis and its source features. Change the original and every copy updates.
 - To change it later, right-click it under **Features** in the tree and choose **Edit Feature**.
 - An unsuitable axis pick is refused with a message in the status bar.

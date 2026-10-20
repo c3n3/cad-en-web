@@ -24,7 +24,7 @@ Brings geometry from outside the sketch onto its plane: entities of other sketch
 - Projecting a **face** puts its whole outline in the sketch as closed loops, holes included, so the sketch gets a surface you can extrude. A face also holds up better than separate edges when the body is rebuilt later.
 - A face's outline keeps the shape of its edges: a round edge comes in as one exact circle or arc, straight edges as lines, other curves as splines. (A model on the mesh engine gets short line segments instead.)
 - Items from the sketch being edited can't be projected ("you cannot select items from within the same sketch"). Neither can a projection: pick its source.
-- A circle on a tilted plane becomes an ellipse. An edge seen end-on to the sketch can't be projected.
+- A circle on a tilted plane becomes an ellipse. A circle or arc seen edge-on (its plane square to the sketch) becomes a line: a circle's runs a diameter through its centre, an arc's covers the stretch the arc spans.
 - Projected geometry is placed, not solved, so you can't drag it. Constrain and dimension other geometry to it instead.
 - Projections that meet at the same point are joined, so a ring of projected edges closes into a surface.
 - There is no edit form. To change a projection, delete it and project again. Deleting the source also removes the projection.

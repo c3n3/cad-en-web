@@ -21,7 +21,8 @@ Revolves a sketch's surfaces around an axis to make a solid, such as a ring, a c
   - **Entity** — turn until the profile reaches a plane, a flat body face, a body corner or a point outside the sketch. A point marks the half-plane through the axis and the point. **Offset** is an angle back from it, and **Flip offset** goes past it instead.
   - **Through all** — not used for a revolve. Use 360 for all the way round.
 - **Symmetric (mid-plane)** — turns half the End angle each way from the sketch plane. It applies when the End is a Distance, and the Start is then ignored.
-- **Merge result** — on by default. The result joins touching bodies with the same tag.
+- **Auto Merge** — on by default. The result joins the touching bodies with the same tag that are shown when you click Create or Update. CADen saves which bodies those were, so hiding or showing a body later changes nothing.
+  - Untick it to choose instead: tick **Merge with all** to join every touching body with the same tag, hidden or not, checked again each time the model rebuilds; or pick the bodies to merge with in the list (each one it touches joins it). Pick none for a separate body.
 
 ## Tips
 - Positive angles follow the right-hand rule about the axis line. If the preview goes the long way round, press Flip.

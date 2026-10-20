@@ -340,6 +340,10 @@
     "text": "Releases",
     "items": [
       {
+        "text": "0.5.2 Alpha",
+        "link": "/docs/releases/0.5.2a1"
+      },
+      {
         "text": "0.5.1 Alpha",
         "link": "/docs/releases/0.5.1a1"
       },

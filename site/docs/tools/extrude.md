@@ -20,7 +20,8 @@ Pushes a sketch's surfaces straight out from the sketch plane to make solid bodi
   - **Entity** — up to a plane, a flat body face, a surface of another sketch, or a point. **Offset** stops short of it by that much, and **Flip offset** goes past it instead.
   - **Through all** — up to the furthest body. **Flip** goes the other way.
 - **Draft** — tick to lean the walls by the angle given, in degrees (5 to start with). A positive angle narrows the solid away from the sketch, and a negative angle widens it.
-- **Merge result** — on by default. A new body that touches or overlaps a body with the same tag is joined into it.
+- **Auto Merge** — on by default. The new body joins the touching bodies with the same tag that are shown when you click Create or Update. CADen saves which bodies those were, so hiding or showing a body later changes nothing.
+  - Untick it to choose instead: tick **Merge with all** to join every touching body with the same tag, hidden or not, checked again each time the model rebuilds; or pick the bodies to merge with in the list (each one it touches joins it). Pick none for a separate body.
 
 ## Tips
 - Values accept units and expressions, e.g. `10mm` or `sizes::depth`.

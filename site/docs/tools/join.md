@@ -20,10 +20,10 @@ Unites two or more bodies into a single body. The bodies must touch: they have t
 - A chain is fine: if A touches B and B touches C, all three join even though A and C don't meet.
 - If the bodies have different tags, you are asked which tag the joined body should take. If they all share a tag, the joined body keeps it.
 - The picked bodies are used up: later features see only the joined body. To change which bodies are joined, right-click the Join in the tree and choose **Edit Feature** — the model goes back to just before the Join so its bodies are there to pick again; **Update** applies, **Cancel** leaves it as it was.
-- Extrude's **Merge result** joins a new extrusion into a touching body of the same tag as it is made; Join is for bodies that already exist.
+- Extrude's **Auto Merge** joins a new extrusion into the touching bodies of the same tag as it is made; Join is for bodies that already exist.
 
 ## See also
 - [Intersect](intersect.md) — split bodies into their overlapping and separate pieces instead.
-- [Extrude](extrude.md) — its **Merge result** joins as it extrudes.
+- [Extrude](extrude.md) — its **Auto Merge** joins as it extrudes.
 
 [← Combine](../bags/intersect.md) · [All documentation](../index.md)

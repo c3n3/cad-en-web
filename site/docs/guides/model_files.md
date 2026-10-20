@@ -19,6 +19,8 @@ The kind of file is the last part of the name (`.caden`, `.acaden` ...), so Wind
 
 - A new model is saved as JSON.
 - **File › Save As...** offers both formats in the file type list at the bottom right of the dialog. JSON is chosen by default. For a file that is already Python, Python is chosen.
+- The first time a new model is saved, the dialog starts in the open workspace (with no workspace open, where **File › Open** starts).
+- In the Workspace panel, select one or more files (Ctrl or Shift click) and press Delete to move them to the recycle bin. CADen asks first, once for all of them; a file open in a tab closes.
 - If you type the extension yourself (`bracket.py.caden`), that format is used.
 - **File › Save** keeps a file in the format it was opened in: a Python model stays Python.
 - A model made from a template is saved as JSON, whatever format the template is.
