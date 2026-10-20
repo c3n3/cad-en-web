@@ -20,7 +20,7 @@ Cuts a sketch's shape out of existing bodies, pushing it straight from the sketc
   - **Entity** — up to a plane, a flat face, a surface of another sketch, or a point, with **Offset** and **Flip offset**.
   - **Through all** — through every body, with **Flip**.
 - **Draft** — tick to taper the cut's walls, in degrees. A positive angle makes the cut narrower as it goes deeper.
-- **Auto select bodies** — on by default: the cut removes material from every body with the same tag as the cut's surface. Untick it to choose bodies from the **Cut** list.
+- **Auto select bodies** — on by default: the cut removes material from every body with the same tag as the cut's surface. Untick it to choose the bodies in the **Cut** box: click the box, then click bodies in the view to add them, and press Delete or right-click › **Delete** to take selected ones out.
 
 ## Tips
 - The cut side keeps following your surface picks until you press Flip yourself.

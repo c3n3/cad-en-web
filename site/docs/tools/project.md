@@ -26,6 +26,7 @@ Brings geometry from outside the sketch onto its plane: entities of other sketch
 - Items from the sketch being edited can't be projected ("you cannot select items from within the same sketch"). Neither can a projection: pick its source.
 - A circle on a tilted plane becomes an ellipse. A circle or arc seen edge-on (its plane square to the sketch) becomes a line: a circle's runs a diameter through its centre, an arc's covers the stretch the arc spans.
 - Projected geometry is placed, not solved, so you can't drag it. Constrain and dimension other geometry to it instead.
+- A projection starts with its source's tag and follows it when the source is retagged. To give it a tag of its own, pick it in the Properties panel's **Tag** box or the ribbon's tag dropdown. Your choice is saved with the projection and the source isn't changed.
 - Projections that meet at the same point are joined, so a ring of projected edges closes into a surface.
 - There is no edit form. To change a projection, delete it and project again. Deleting the source also removes the projection.
 

@@ -17,7 +17,7 @@ Mirrors 3D features or whole bodies across a plane, keeping the originals. A mir
 - **Plane** — the mirror plane: a model plane (XY, YZ, ZX), a custom plane, a sketch's plane, or a flat body face.
 - **Items** — the features and bodies to mirror, applied in the order you picked them. Select a row and press Delete to remove it.
 - **Auto Merge** — on by default. Each mirrored copy joins the touching bodies with the same tag that are shown when you click Create or Update. CADen saves which bodies those were, so hiding or showing a body later changes nothing.
-  - Untick it to choose instead: tick **Merge with all** to join every touching body with the same tag, hidden or not, checked again each time the model rebuilds; or pick the bodies to merge with in the list (each one it touches joins it). Pick none for a separate body.
+  - Untick it to choose instead: tick **Merge with all** to join every touching body with the same tag, hidden or not, checked again each time the model rebuilds; or list the bodies to merge with in the **Merge with** box (each one it touches joins it): click the box, then click bodies in the view to add them, and press Delete or right-click › **Delete** to take selected ones out. Pick none for a separate body.
 
 ## Tips
 - A face click adds the *feature* that produced the face, such as an Extrude or a Cut Extrude. The mirrored copy then behaves like that feature: a raise merges into the bodies it touches, and a cut subtracts from every body it crosses.

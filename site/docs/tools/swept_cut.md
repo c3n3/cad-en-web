@@ -21,7 +21,7 @@ Cuts material out of bodies by sweeping a sketch's surfaces along a path. Use it
 - **Direction** — **One way** (with **Flip** for the other end of the path) or **Both ways**.
 - **Scale** — **None**, **Start & End**, or **Function of p** (`p` runs from 0 to 1 along the path).
 - **Twist** — **None**, **Total angle**, **Per unit length**, or **Function of p**, in degrees.
-- **Auto select bodies** — on by default: cuts every body with the same tag as the profile's surface. Untick it to choose bodies from the **Cut** list.
+- **Auto select bodies** — on by default: cuts every body with the same tag as the profile's surface. Untick it to choose the bodies in the **Cut** box: click the box, then click bodies in the view to add them, and press Delete or right-click › **Delete** to take selected ones out.
 
 ## Tips
 - Unlike Cut Extrude, the side is not chosen for you. Use Flip or Both ways if the preview runs the wrong way.
