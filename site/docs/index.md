@@ -42,6 +42,7 @@ The ribbon's **Features** tab:
 
 What changed in each release:
 
+- [0.5.4 Alpha](releases/0.5.4a1.md) — the Infill tool (cavities in 3D prints), deleting from the Merge with box, a projected item's tag.
 - [0.5.3 Alpha](releases/0.5.3a1.md) — the demo workspace, textures in assemblies, faster textured models, the constraint list, moving files in the workspace.
 - [0.5.2 Alpha](releases/0.5.2a1.md) — Auto Merge, Change Sketch Plane, Overhang Both, edge-on projection, and fixes.
 - [0.5.1 Alpha](releases/0.5.1a1.md) — Joined select, Join Points, box select from a surface, the Rotate preview.
