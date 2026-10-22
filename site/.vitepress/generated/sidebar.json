@@ -327,6 +327,10 @@
         "link": "/docs/guides/master_files"
       },
       {
+        "text": "Slicing from CADen",
+        "link": "/docs/guides/slicing"
+      },
+      {
         "text": "STL import",
         "link": "/docs/guides/stl_import"
       },
@@ -347,6 +351,10 @@
   {
     "text": "Releases",
     "items": [
+      {
+        "text": "0.5.5 Alpha",
+        "link": "/docs/releases/0.5.5a1"
+      },
       {
         "text": "0.5.4 Alpha",
         "link": "/docs/releases/0.5.4a1"

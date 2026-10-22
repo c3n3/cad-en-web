@@ -27,6 +27,7 @@ A model set up for 3D printing:
   - `print::max_overhang_angle` — `60`, how far from vertical a face can lean before it needs
     support. A new [Overhang](../tools/overhang.md) starts with this as its angle.
 - The **support** tag, in blue, for the bodies that hold the part up while it prints.
+- The **3D Print Overlay** on: a **Slice** button for each body's print weight and time ([Slicing from CADen](slicing.md)).
 
 ## Your own master files
 

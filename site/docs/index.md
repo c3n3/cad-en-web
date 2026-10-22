@@ -33,6 +33,7 @@ The ribbon's **Features** tab:
 - [Model files](guides/model_files.md) — The JSON and Python file formats, and how Save As chooses between them.
 - [Tool crates](guides/tool_crates.md) — Share templates and custom features as one `.zip.ccaden` file: installing and creating crates.
 - [Master files](guides/master_files.md) — Start new models, assemblies and custom features from saved ones: File › Create New, the 3D Print master, installing your own.
+- [Slicing from CADen](guides/slicing.md) — Each body's print weight and time from Bambu Studio or Orca Slicer: View › 3D Print Overlay, Slice, Slice View, File › Connect.
 - [STL import](guides/stl_import.md) — Turn an STL into a model to sketch on: File › Import › STL..., the import settings, `.zip.scaden` projects.
 - [Using CADen with an AI](guides/ai.md) — Where the AI API folder is, and pointing an AI assistant at it to write models.
 - [The demo workspace](guides/demo.md) — Try a demo! on the welcome page: a box and lid made from parameters, and an assembly to slide the lid open.
@@ -42,6 +43,7 @@ The ribbon's **Features** tab:
 
 What changed in each release:
 
+- [0.5.5 Alpha](releases/0.5.5a1.md) — slicing from CADen (Bambu Studio / Orca Slicer): weights, print times, Slice View.
 - [0.5.4 Alpha](releases/0.5.4a1.md) — the Infill tool (cavities in 3D prints), deleting from the Merge with box, a projected item's tag.
 - [0.5.3 Alpha](releases/0.5.3a1.md) — the demo workspace, textures in assemblies, faster textured models, the constraint list, moving files in the workspace.
 - [0.5.2 Alpha](releases/0.5.2a1.md) — Auto Merge, Change Sketch Plane, Overhang Both, edge-on projection, and fixes.
