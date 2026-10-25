@@ -31,18 +31,24 @@ The ribbon's **Features** tab:
 - [Custom features](guides/custom_features.md) — Make your own features, keep them in a workspace and use them in any model.
 - [Templates](guides/templates.md) — Models with values to fill in: the Templates panel, installing them, making models from them.
 - [Model files](guides/model_files.md) — The JSON and Python file formats, and how Save As chooses between them.
-- [Tool crates](guides/tool_crates.md) — Share templates and custom features as one `.zip.ccaden` file: installing and creating crates.
+- [Functional features](guides/functional_features.md) — Features written as a short Python program (`.py.ffcaden`): using one, its timeline block, writing your own.
+- [Tool crates](guides/tool_crates.md) — Share templates, custom and functional features and master files as one `.zip.ccaden` file: the Crates panel, installing, updating and creating crates.
+- [The Architecture crate](guides/architecture.md) — Floor plans: walls, windows and doors drawn as tagged sketch surfaces, raised and cut by Floor Plan.
 - [Master files](guides/master_files.md) — Start new models, assemblies and custom features from saved ones: File › Create New, the 3D Print master, installing your own.
 - [Slicing from CADen](guides/slicing.md) — Each body's print weight and time from Bambu Studio or Orca Slicer: View › 3D Print Overlay, Slice, Slice View, File › Connect.
+- [Exporting STL and STEP](guides/exporting.md) — File › Export: which bodies (hidden ones too), one file or one per body, the model's export folder (its gear), accuracy.
+- [Importing a model](guides/model_import.md) — Bring a whole model into another: File › Import › Model..., placing it with constraints, building on its bodies, the link to its file.
 - [STL import](guides/stl_import.md) — Turn an STL into a model to sketch on: File › Import › STL..., the import settings, `.zip.scaden` projects.
 - [Using CADen with an AI](guides/ai.md) — Where the AI API folder is, and pointing an AI assistant at it to write models.
 - [The demo workspace](guides/demo.md) — Try a demo! on the welcome page: a box and lid made from parameters, and an assembly to slide the lid open.
+- [The text editor](guides/text_editor.md) — Edit model files, functional features, Markdown and Python in CADen: VS Code's keys, multiple cursors, folding, find and replace, and files kept in step with the model tabs.
 - [Bug reports](guides/bug_reports.md) — Help › Bug Report: what it saves (the session record, the open models) and the session recording setting.
 
 ## Releases
 
 What changed in each release:
 
+- [0.6.0 Alpha](releases/0.6.0a1.md) — Import Model, functional features and the Crates panel, the built-in text editor, smoother assemblies.
 - [0.5.5 Alpha](releases/0.5.5a1.md) — slicing from CADen (Bambu Studio / Orca Slicer): weights, print times, Slice View.
 - [0.5.4 Alpha](releases/0.5.4a1.md) — the Infill tool (cavities in 3D prints), deleting from the Merge with box, a projected item's tag.
 - [0.5.3 Alpha](releases/0.5.3a1.md) — the demo workspace, textures in assemblies, faster textured models, the constraint list, moving files in the workspace.

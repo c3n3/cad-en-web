@@ -22,6 +22,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Download', link: '/download' },
+      { text: 'Crates', link: '/crates' },
       { text: "What's New", link: '/whats-new' },
       { text: 'Documentation', link: '/docs/', activeMatch: '^/docs/' },
     ],

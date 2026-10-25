@@ -21,6 +21,7 @@ Links two models' turns in a fixed ratio, like two gears in mesh: turn one and t
 - The two models are locked at the turn they have when you click Create. There is no check that teeth actually mesh or that the models don't overlap.
 - Turn a model by selecting it and dragging with the right mouse button. Its geared partner follows, however many turns you make.
 - A fixed model can't turn, so neither can anything geared to it.
+- If a face (or edge) a constraint uses is gone after an edit, its box is red when you edit the constraint. Select it and press Delete, pick a new one, then **Update**. **Update** stays off until every box is fixed; **Cancel** always works.
 
 ## See also
 - [Mechanical](../bags/mechanical.md)

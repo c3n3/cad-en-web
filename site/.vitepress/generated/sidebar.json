@@ -177,6 +177,10 @@
           {
             "text": "Texture",
             "link": "/docs/tools/texture"
+          },
+          {
+            "text": "Import Model",
+            "link": "/docs/tools/import_model"
           }
         ]
       },
@@ -319,8 +323,16 @@
         "link": "/docs/guides/model_files"
       },
       {
+        "text": "Functional features",
+        "link": "/docs/guides/functional_features"
+      },
+      {
         "text": "Tool crates",
         "link": "/docs/guides/tool_crates"
+      },
+      {
+        "text": "The Architecture crate",
+        "link": "/docs/guides/architecture"
       },
       {
         "text": "Master files",
@@ -329,6 +341,14 @@
       {
         "text": "Slicing from CADen",
         "link": "/docs/guides/slicing"
+      },
+      {
+        "text": "Exporting STL and STEP",
+        "link": "/docs/guides/exporting"
+      },
+      {
+        "text": "Importing a model",
+        "link": "/docs/guides/model_import"
       },
       {
         "text": "STL import",
@@ -343,6 +363,10 @@
         "link": "/docs/guides/demo"
       },
       {
+        "text": "The text editor",
+        "link": "/docs/guides/text_editor"
+      },
+      {
         "text": "Bug reports",
         "link": "/docs/guides/bug_reports"
       }
@@ -351,6 +375,10 @@
   {
     "text": "Releases",
     "items": [
+      {
+        "text": "0.6.0 Alpha",
+        "link": "/docs/releases/0.6.0a1"
+      },
       {
         "text": "0.5.5 Alpha",
         "link": "/docs/releases/0.5.5a1"

@@ -83,3 +83,11 @@ deployed to GitHub Pages at https://c3n3.github.io/cad-en-web/ (`base: '/cad-en-
   imported value (`m5_bolt::length - 0.25in` -- checked: imports land as `<model>::<name>`).
 - Building without `npm run sync` (`npx vitepress build site`) keeps the committed (released) docs copy --
   sync would publish unreleased pages. Preview: the super repo's `.claude/launch.json` `cad-en-web-preview`.
+
+## Crates (designs/pycad_en/architecture_plan.md, Oct 24 2026)
+
+- `site/public/crates/<name>.zip.ccaden` + `index.json` (read by the app's Crates panel) and `site/crates.md`
+  (nav "Crates") are written by the super repo's `tools/publish_crates.py` from pycad-en/crates/ -- don't edit
+  them by hand. The page links downloads as `[download](./crates/<file>){target="_self" download}`: relative
+  keeps the `/cad-en-web/` base (an absolute `/crates/...` with `target` loses it), and `target="_self"` keeps the
+  `.ccaden` file out of VitePress's dead-link check (a plain link failed `npm run build`, 0.6.0a1).

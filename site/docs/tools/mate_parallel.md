@@ -18,6 +18,7 @@ Turns two models so that two flat faces are parallel. Their distance apart is le
 ## Tips
 - The faces may end up facing the same way or opposite ways, whichever is nearer to where they are.
 - A constraint that can't be met together with the others is refused, and the form says so.
+- If a face (or edge) a constraint uses is gone after an edit, its box is red when you edit the constraint. Select it and press Delete, pick a new one, then **Update**. **Update** stays off until every box is fixed; **Cancel** always works.
 
 ## See also
 - [Coincident](mate_coincident.md) — also bring the faces together.

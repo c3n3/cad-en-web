@@ -1,0 +1,11 @@
+{
+  "crates": [
+    {
+      "name": "architecture",
+      "version": "1.0.0",
+      "title": "Architecture",
+      "description": "Floor plans: draw the walls, windows and doors of a plan as tagged sketch surfaces; Floor Plan raises the walls and cuts the openings. A master file in feet with the wall, window and door tags and heights.",
+      "file": "architecture.zip.ccaden"
+    }
+  ]
+}

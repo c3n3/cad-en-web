@@ -17,6 +17,7 @@ Chooses the tag that new sketch geometry is put on, such as base or construction
   - **Color**
   - **Line type** and **Line thickness** (lines)
   - **Fill** and **Pattern size** (2D surfaces)
+  - **Reflectivity** (3D surfaces and bodies) — from 0% (matte) to 100%: how much of the camera's light the surface reflects, as a sheen.
   - **Pick from an item** — click it, then click an item in the view to copy that item's style.
 
 ## Tips
@@ -24,7 +25,8 @@ Chooses the tag that new sketch geometry is put on, such as base or construction
 - Inside a sketch, press T to open a tag menu at the cursor. Up/Down or T again moves through the tags, Enter picks one and Escape closes the menu without changing anything. T is also the [Slot](slot.md) tool's default key, so the same press arms Slot too. Give one of them another key in **Keybindings** if that gets in the way.
 - If you draw on a tag that is hidden, the tag is shown again.
 - Create or edit tags in the **Tags** group of the Config tab.
-- To retag items later, right-click them in the view and use **Tag**. **Style...** on the same menu restyles them.
+- To retag items later, right-click them in the view and use **Tag**. **Style...** on the same menu restyles them. Right-click a body in the Model tab's **Bodies** for **Style...** too.
+- A tag's own **Body reflectivity** is in its tag dialog (the **Tags** group of the Config tab).
 
 ## See also
 - [Select](select.md) — select items before switching tags to retag them

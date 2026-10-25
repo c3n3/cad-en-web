@@ -26,6 +26,8 @@ Install a custom feature to have it in every model you open, with or without a w
 - Your folder works like a workspace's `.caden/custom_features` folder. A bag with the same name in both shows as one bag. A tool in both shows twice, and the installed one's tooltip says so.
 - A model refers to an installed custom feature by its installed name, such as `installed:nut_slot.py.fcaden`, so the model works on any computer that has it installed.
 - Right-click an installed tool and choose **Uninstall** to remove it, or right-click an installed bag and choose **Uninstall Bag**. CADen asks first.
+- A [crate](tool_crates.md) installed from the **Crates** panel brings its custom features in a bag named after it. Delete or update the crate from that panel.
+- The bags also hold [functional features](functional_features.md) (`.py.ffcaden`), features written as a short Python program.
 
 ## Using one
 ![Using the nut slot: the hole's edge, the side face, a depth, Create](../videos/custom_feature_use.webp)

@@ -1,11 +1,19 @@
-## CADen 0.5.5 Alpha
+## CADen 0.6.0 Alpha
 
-- New: slice from CADen with **Bambu Studio** or **Orca Slicer**. The 3D print overlay, top right of the model view, shows the slicer and its print presets; **Slice** gives each body's estimated weight and print time, and a total. The printer and filament are the ones selected in your slicer
-- **View › 3D Print Overlay** turns it on for a model; models made from the 3D Print master have it on. It's also a setting, **print.slice_overlay**, for every model
-- **Slice View** shows the printed tool paths over see-through bodies, each layer as its own ridge, like the slicer's preview. A slider on the right shows only the layers between its handles
-- Results stay after you change the model, greyed as out of date until you Slice again. A preset you save in the slicer shows up in CADen by itself
-- Bodies are sliced as the STL export writes them, Infill cavities included, and turned so the model's print_direction points up
-- Infill: the preview outlines up to 10,000 cavities, spread through the whole body
-- Fix: a model using a custom feature lost its own settings (units, the overlay) when reopened
+- New: **Import Model** brings a whole model into the one you are working on: **File › Import › Model...**, the **Import Model** tool, or right-click a model file in the Workspace panel. Place it with constraints, build on its bodies, and it stays linked: save the model it came from and every model importing it follows
+- New: **functional features**, features written as a short Python program (`.py.ffcaden`), and the **Architecture** crate's **Floor Plan**, which raises a sketch's walls and cuts its windows and doors
+- New: the **Crates** panel in the side bar installs, updates and removes tool crates, and the website lists the crates you can download
+- New: a built-in **text editor** for model files, functional features, Markdown and Python. Right-click a file in the Workspace panel or a model's tab and choose **Open in Text Editor**. It has VS Code's keys, multiple cursors, folding, and find and replace, and a model file whose text wouldn't load isn't saved. Open files follow changes made in other tabs or programs
+- The Workspace panel lists Markdown and Python files too. Its right-click **Properties** is gone
+- Assemblies: right-click a model to **Hide** it (saved with the assembly), models start collapsed in the timeline, and selecting a model's row highlights its bodies
+- Assemblies orbit and pan at a steady 60 FPS. Nothing is hovered while the camera moves
+- The frame rate shows in the model view's top left corner. Turn it off with the **graphics.show_fps** setting
+- Selection: in the 3D view, what is clearly in front of the cursor is picked. A body's edges and corners still win over their own faces
+- STL export: always into the model's export folder (set it from the gear), and **Export hidden bodies** to include hidden ones
+- The timeline highlights the rows that made a selected face, edge or point. Vectors have Show / Hide, and Ctrl+Z undoes a value edit
+- The Measure tool's diameter and circumference labels no longer sit on top of each other
+- Model files: a dimension must say where its label sits (`display=`). Files written by CADen always do
+- Fix: an orthographic view zoomed in off the model's centre no longer cuts the model
+- Fix: base axes no longer take clicks meant for bodies in the 3D view
 
 [Every release's notes](/docs/#releases)

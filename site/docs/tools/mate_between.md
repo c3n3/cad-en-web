@@ -20,6 +20,7 @@ Centres one model between two faces of another — a block in a slot, a wheel be
 - Each pair must be parallel and on one model; the form says so when they aren't.
 - Only the distance across the planes is set: the model can still slide along them. Add a [Coincident](mate_coincident.md) or [Concentric](mate_concentric.md) to hold the rest.
 - A constraint that can't be met together with the others is refused, and the form says so.
+- If a face (or edge) a constraint uses is gone after an edit, its box is red when you edit the constraint. Select it and press Delete, pick a new one, then **Update**. **Update** stays off until every box is fixed; **Cancel** always works.
 
 ## See also
 - [Coincident](mate_coincident.md) — put two flat faces together.

@@ -22,6 +22,7 @@ Links a gear's turn to a rack's travel: turn the gear and the rack slides along,
 - The gear and the rack are locked where they stand when you click Create. There is no check that the teeth actually mesh or that the models don't overlap.
 - Turn the gear by selecting it and dragging with the right mouse button. Drag the rack with the left mouse button.
 - The constraint doesn't hold the rack in line. Use other constraints to keep it sliding straight.
+- If a face (or edge) a constraint uses is gone after an edit, its box is red when you edit the constraint. Select it and press Delete, pick a new one, then **Update**. **Update** stays off until every box is fixed; **Cancel** always works.
 
 ## See also
 - [Geared](mate_geared.md) — two gears turning together.

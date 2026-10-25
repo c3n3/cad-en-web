@@ -14,6 +14,7 @@ Brings a model file (or another assembly) into the assembly. Each model keeps it
 
 ## Tips
 - The first model inserted is **fixed**: it stays where it is and the others move around it. Right-click any model in the Model tab to **Fix** or **Unfix** it.
+- To hide a model, right-click it in the Model tab, or right-click any of its bodies in the view, and choose **Hide**. Its row goes grey; right-click the row and choose **Show** to bring it back. A hidden model stays hidden when the assembly is saved, and it still holds its constraints.
 - Drag a model with the left mouse button to move it parallel to the screen. Select it, then drag with the right mouse button to turn it about its centre (a right-click without dragging still opens the menu). Both moves stay within what its constraints allow.
 - A model in other units is brought in at its real size (a 1 in part is 25.4 mm long in a mm assembly).
 - Inserting the same model twice gives it two names (`arm`, `arm-2`); both read the same file.
