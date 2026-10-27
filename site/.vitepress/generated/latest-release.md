@@ -1,19 +1,17 @@
-## CADen 0.6.0 Alpha
+## CADen 0.7.0 Alpha
 
-- New: **Import Model** brings a whole model into the one you are working on: **File › Import › Model...**, the **Import Model** tool, or right-click a model file in the Workspace panel. Place it with constraints, build on its bodies, and it stays linked: save the model it came from and every model importing it follows
-- New: **functional features**, features written as a short Python program (`.py.ffcaden`), and the **Architecture** crate's **Floor Plan**, which raises a sketch's walls and cuts its windows and doors
-- New: the **Crates** panel in the side bar installs, updates and removes tool crates, and the website lists the crates you can download
-- New: a built-in **text editor** for model files, functional features, Markdown and Python. Right-click a file in the Workspace panel or a model's tab and choose **Open in Text Editor**. It has VS Code's keys, multiple cursors, folding, and find and replace, and a model file whose text wouldn't load isn't saved. Open files follow changes made in other tabs or programs
-- The Workspace panel lists Markdown and Python files too. Its right-click **Properties** is gone
-- Assemblies: right-click a model to **Hide** it (saved with the assembly), models start collapsed in the timeline, and selecting a model's row highlights its bodies
-- Assemblies orbit and pan at a steady 60 FPS. Nothing is hovered while the camera moves
-- The frame rate shows in the model view's top left corner. Turn it off with the **graphics.show_fps** setting
-- Selection: in the 3D view, what is clearly in front of the cursor is picked. A body's edges and corners still win over their own faces
-- STL export: always into the model's export folder (set it from the gear), and **Export hidden bodies** to include hidden ones
-- The timeline highlights the rows that made a selected face, edge or point. Vectors have Show / Hide, and Ctrl+Z undoes a value edit
-- The Measure tool's diameter and circumference labels no longer sit on top of each other
-- Model files: a dimension must say where its label sits (`display=`). Files written by CADen always do
-- Fix: an orthographic view zoomed in off the model's centre no longer cuts the model
-- Fix: base axes no longer take clicks meant for bodies in the 3D view
+- New: drag an item in the **timeline** to move it. A dashed line shows where it will land. It can't go above something it uses, nor below something that uses it: the cursor says "not allowed" there, and letting go says what it depends on. Works in models and assemblies, and Undo puts it back
+- New: **copy, cut and paste** in the Workspace panel, from the right-click menu or Ctrl+C / Ctrl+X / Ctrl+V, using the system clipboard. A copy in the same folder is named `<name> copy`, and you choose whether a copied model's links to other files are updated
+- The Workspace panel keeps the folders you opened, between sessions. Opening a workspace loads the first model, then the rest in the background without blocking the window
+- Assemblies: the first model inserted is placed on the assembly's axes at once. Dragging a model pushes the models constrained to it along. Right-click a model in the view, or its body in the Bodies list, and choose **Open Model**
+- Right-click a body in a model to **Hide** it
+- The **Equal length** constraint is now **Equal**. An arc made equal to a circle, another arc or a body's round edge takes its diameter. Model files write `ce.equal` (files with `equal_length` still open)
+- Measure: click one item, then another; each click adds, and a click on empty space starts again. Circles that share a centre show the gap between them. Round faces (cylinders) measure like circles: the distance between their axes, the minimum or the maximum, chosen under **Arc distance**
+- Fix: a dimension from a sketch arc to a body's round edge changes the sketch again, and a line's height can be dimensioned next to it
+- Fix: clicking where two points sit on one spot picks the one drawn on top, so its highlight shows
+- Fix: dragging a sketch no longer loses surfaces, and the Architecture crate's Floor Plan cuts its doors and windows in the right walls
+- Fix: a model whose sketches sit on its own faces opens as it was saved, on its own and inside an assembly
+- Fix: a chamfer bigger than the face beside it stops where that face ends
+- Fix: Select and Dimension no longer drop out of sight in the ribbon when a longer tag name appears
 
 [Every release's notes](/docs/#releases)

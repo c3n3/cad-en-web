@@ -25,6 +25,7 @@ Pushes a sketch's surfaces straight out from the sketch plane to make solid bodi
 
 ## Tips
 - Values accept units and expressions, e.g. `10mm` or `sizes::depth`.
+- To hide a body, right-click it (or any of its faces or edges) in the view, or its row in the Model tab, and choose **Hide**. A hidden body stays hidden when the model is saved; **Show** on its row brings it back.
 - Clicking where surfaces overlap picks the smallest first. Click again to step to the next larger one.
 - Surfaces are filled in automatically: a lone surface, every separate surface, or the outer surface of a region with holes, which gives a tube.
 - When the form opens, it starts on its first empty pick box. If a remembered End is an Entity with no pick yet, that box is active first.

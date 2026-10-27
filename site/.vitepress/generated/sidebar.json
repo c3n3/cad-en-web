@@ -307,6 +307,10 @@
     "text": "Guides",
     "items": [
       {
+        "text": "The timeline",
+        "link": "/docs/guides/timeline"
+      },
+      {
         "text": "Values and expressions",
         "link": "/docs/guides/values"
       },
@@ -375,6 +379,10 @@
   {
     "text": "Releases",
     "items": [
+      {
+        "text": "0.7.0 Alpha",
+        "link": "/docs/releases/0.7.0a1"
+      },
       {
         "text": "0.6.0 Alpha",
         "link": "/docs/releases/0.6.0a1"

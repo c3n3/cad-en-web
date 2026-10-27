@@ -9,13 +9,14 @@ Brings a model file (or another assembly) into the assembly. Each model keeps it
 ## How to use
 1. Open or create an assembly (File › Create New › Assembly, or the welcome page's **New Assembly**).
 2. Click **Insert Model** and choose a model file (`.json.caden` or `.py.caden`) or an assembly (`.json.acaden` or `.py.acaden`).
-3. The model follows the cursor, sliding on the plane through the origin that faces you. Move it roughly into place.
-4. Click to place it. Press Escape instead to leave it out.
+3. The first model goes straight in: its own origin and axes on the assembly's, **fixed**. The view frames it.
+4. Each model after it follows the cursor, sliding on the plane through the origin that faces you. Move it roughly into place, then click to place it. Press Escape instead to leave it out.
 
 ## Tips
 - The first model inserted is **fixed**: it stays where it is and the others move around it. Right-click any model in the Model tab to **Fix** or **Unfix** it.
 - To hide a model, right-click it in the Model tab, or right-click any of its bodies in the view, and choose **Hide**. Its row goes grey; right-click the row and choose **Show** to bring it back. A hidden model stays hidden when the assembly is saved, and it still holds its constraints.
-- Drag a model with the left mouse button to move it parallel to the screen. Select it, then drag with the right mouse button to turn it about its centre (a right-click without dragging still opens the menu). Both moves stay within what its constraints allow.
+- Drag a model with the left mouse button to move it parallel to the screen. Select it, then drag with the right mouse button to turn it about its centre (a right-click without dragging still opens the menu). Both moves stay within what its constraints allow. Models joined to it by constraints move along as far as they must to keep them, such as a part pushed along by the one sitting on it. Fixed models never move.
+- Right-click a model in the view (any face, edge or point of it) or its body in the Bodies list and choose **Open Model** to open its file in a tab. Double-clicking it does the same.
 - A model in other units is brought in at its real size (a 1 in part is 25.4 mm long in a mm assembly).
 - Inserting the same model twice gives it two names (`arm`, `arm-2`); both read the same file.
 - An inserted assembly moves as one piece, held together by its own constraints.

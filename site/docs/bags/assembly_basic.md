@@ -10,7 +10,7 @@ Put models together. An assembly (`.json.acaden`, or `.py.acaden`) brings in mod
 | [Concentric](../tools/mate_concentric.md) | Line up two round faces on one axis. |
 | [Between](../tools/mate_between.md) | Centre one model between two parallel faces of another. |
 
-Drag a model to move it, or select it and drag with the right mouse button to turn it. Exporting an assembly to STL writes one file per body by default, named `<prefix>_<model>_<body>.stl`.
+Drag a model to move it, or select it and drag with the right mouse button to turn it. Models constrained to it move along with it. Exporting an assembly to STL writes one file per body by default, named `<prefix>_<model>_<body>.stl`.
 
 Right-click any tool button and choose **Help** to see its demonstration and page.
 
