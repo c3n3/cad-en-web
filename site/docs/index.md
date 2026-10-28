@@ -11,6 +11,7 @@ The ribbon's **Sketch** tab:
 - [Sketch basics](bags/sketch_basics.md) — Start a sketch, choose the tag new geometry goes on, select and dimension things.
 - [Sketch drawing](bags/sketch_drawing.md) — Draw the curves and shapes a sketch is made of.
 - [Sketch pattern](bags/sketch_pattern.md) — Copy and repeat sketch geometry.
+- [Sketch Advanced](bags/sketch_advanced.md) — Walls of even thickness that follow a centerline.
 - [Sketch Other](bags/sketch_other.md) — Measure, join, trim, write and annotate in a sketch.
 
 The ribbon's **Features** tab:
@@ -27,6 +28,7 @@ The ribbon's **Features** tab:
 
 ## Guides
 
+- [Orienting the view](guides/orient_view.md) — N: look straight at a flat face, or pick a side of a cube round the model.
 - [The timeline](guides/timeline.md) — The order a model is built in: rolling back, and dragging an item to move it (never above what it uses).
 - [Values and expressions](guides/values.md) — Units, arithmetic and parameters in any value box, and the value editor.
 - [Custom features](guides/custom_features.md) — Make your own features, keep them in a workspace and use them in any model.
@@ -49,6 +51,7 @@ The ribbon's **Features** tab:
 
 What changed in each release:
 
+- [0.8.0 Alpha](releases/0.8.0a1.md) — N to orient the view, quick dimensions while drawing, the Wall tool, E for Equal, rollback that shows what you make.
 - [0.7.0 Alpha](releases/0.7.0a1.md) — dragging timeline items to reorder them, Workspace copy / paste, Equal (was Equal length), Measure clicks that add, assembly drags that push.
 - [0.6.0 Alpha](releases/0.6.0a1.md) — Import Model, functional features and the Crates panel, the built-in text editor, smoother assemblies.
 - [0.5.5 Alpha](releases/0.5.5a1.md) — slicing from CADen (Bambu Studio / Orca Slicer): weights, print times, Slice View.

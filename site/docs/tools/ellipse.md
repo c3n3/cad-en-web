@@ -4,7 +4,7 @@
 
 Draws an ellipse lined up with the sketch's horizontal and vertical directions, from its centre, a width point and a height point.
 
-**Where:** Sketch tab › Sketch drawing · **Shortcut:** E
+**Where:** Sketch tab › Sketch drawing · **Shortcut:** none (available from the command palette, Ctrl+Shift+P)
 
 ## How to use
 1. Click **Ellipse**. If you aren't in a sketch yet, click a plane or flat face first to start one.

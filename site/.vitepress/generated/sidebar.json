@@ -100,6 +100,17 @@
         ]
       },
       {
+        "text": "Sketch Advanced",
+        "link": "/docs/bags/sketch_advanced",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Wall",
+            "link": "/docs/tools/wall"
+          }
+        ]
+      },
+      {
         "text": "Sketch Other",
         "link": "/docs/bags/sketch_other",
         "collapsed": true,
@@ -307,6 +318,10 @@
     "text": "Guides",
     "items": [
       {
+        "text": "Orienting the view",
+        "link": "/docs/guides/orient_view"
+      },
+      {
         "text": "The timeline",
         "link": "/docs/guides/timeline"
       },
@@ -379,6 +394,10 @@
   {
     "text": "Releases",
     "items": [
+      {
+        "text": "0.8.0 Alpha",
+        "link": "/docs/releases/0.8.0a1"
+      },
       {
         "text": "0.7.0 Alpha",
         "link": "/docs/releases/0.7.0a1"

@@ -20,7 +20,7 @@ Draws a circular arc from its centre, a start point and an end point.
 - Escape part-way cancels the arc and removes the points it placed, unless something else already uses them. A second Escape returns to [Select](select.md).
 - Rest the cursor near an arc for a moment and a dashed guide continues its circle past the ends. You can snap to that guide.
 - Use [Dimension](dimension.md) on an arc to set its diameter. Select an arc and a line to make them tangent (Shift+T).
-- Select an arc and a circle, another arc, or a round edge of a body, then choose **Equal** (Shift+E): the arc takes the same diameter.
+- Select an arc and a circle, another arc, or a round edge of a body, then choose **Equal** (E): the arc takes the same diameter.
 - Arcs go on the tag chosen in the [Tag selector](tag_selector.md).
 
 ## See also

@@ -1,17 +1,18 @@
-## CADen 0.7.0 Alpha
+## CADen 0.8.0 Alpha
 
-- New: drag an item in the **timeline** to move it. A dashed line shows where it will land. It can't go above something it uses, nor below something that uses it: the cursor says "not allowed" there, and letting go says what it depends on. Works in models and assemblies, and Undo puts it back
-- New: **copy, cut and paste** in the Workspace panel, from the right-click menu or Ctrl+C / Ctrl+X / Ctrl+V, using the system clipboard. A copy in the same folder is named `<name> copy`, and you choose whether a copied model's links to other files are updated
-- The Workspace panel keeps the folders you opened, between sessions. Opening a workspace loads the first model, then the rest in the background without blocking the window
-- Assemblies: the first model inserted is placed on the assembly's axes at once. Dragging a model pushes the models constrained to it along. Right-click a model in the view, or its body in the Bodies list, and choose **Open Model**
-- Right-click a body in a model to **Hide** it
-- The **Equal length** constraint is now **Equal**. An arc made equal to a circle, another arc or a body's round edge takes its diameter. Model files write `ce.equal` (files with `equal_length` still open)
-- Measure: click one item, then another; each click adds, and a click on empty space starts again. Circles that share a centre show the gap between them. Round faces (cylinders) measure like circles: the distance between their axes, the minimum or the maximum, chosen under **Arc distance**
-- Fix: a dimension from a sketch arc to a body's round edge changes the sketch again, and a line's height can be dimensioned next to it
-- Fix: clicking where two points sit on one spot picks the one drawn on top, so its highlight shows
-- Fix: dragging a sketch no longer loses surfaces, and the Architecture crate's Floor Plan cuts its doors and windows in the right walls
-- Fix: a model whose sketches sit on its own faces opens as it was saved, on its own and inside an assembly
-- Fix: a chamfer bigger than the face beside it stops where that face ends
-- Fix: Select and Dimension no longer drop out of sight in the ribbon when a longer tag name appears
+- New: press **N** to look square at a selected flat face, centred and zoomed to fit. With nothing selected, N shows a cube round the model: click any of its faces, edges or corners to look from there (Escape puts it away). The cube button at the top of the view does the same
+- New: **quick dimensions**. While drawing a line, polyline or circle (or a wall's centerline), type a length or radius: a box opens at the cursor, and Enter moves the point to it. Enter again places it, and moving the mouse lets the point follow the cursor again. No constraint is made. Enter with nothing typed places the point under the cursor, and a polyline now finishes with Escape or a double-click
+- New: the **Wall** tool (Sketch tab, Sketch Advanced). Click the start, then the width, then the centerline's corners. The wall follows its centerline, its corners are mitred and open ends cut square, and it has one width dimension. Click the first corner again to close it into a ring
+- **E** is now the Equal constraint's shortcut (it was Shift+E). Ellipse has no shortcut
+- Rolling back now includes what the bar stops at, and a feature made while rolled back moves the bar past it, so you see it built
+- While a sketch is edited, its surfaces and the bodies' faces, edges and corners pick by depth: what is in front wins, and a body edge in the sketch's plane wins over the surface on it. The sketch's own lines and points still win every click
+- Choosing **Entity** for an extrude's Start or End makes its box ready for the pick
+- Fix: a tangent from a line to a body's round edge (or a circle equal to one, or a line through the origin between two edges) works in sketches that also use symmetric constraints
+- Fix: a point made coincident with an axis that passes straight through the sketch stays where the axis crosses it
+- Fix: snapping no longer catches a body edge hidden behind another body
+- Fix: a line can be deleted from a sketch whose constraints conflict
+- Fix: a region bounded by projected body edges can be extruded (Create was greyed out)
+- Fix: a right-click during a feature form no longer adds to its picks, and the Properties panel keeps the form while you use the tree
+- Fix: Save As suggests `Untitled.json.caden`, not `Untitled.json.caden.json.caden`
 
 [Every release's notes](/docs/#releases)

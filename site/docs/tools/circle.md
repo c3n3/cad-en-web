@@ -14,11 +14,12 @@ Draws a full circle from its centre and a point on its edge.
 5. Press Escape to return to [Select](select.md).
 
 ## Tips
+- **Quick radius:** after placing the centre, type a radius (a box opens at the cursor on the first digit; units and expressions work). Enter sets the circle to that radius toward the cursor, and Enter again (or a click) places it. No dimension is made.
 - The centre snaps like any point. Snap it onto an existing point to share that point, or onto a line or curve to keep it there.
 - Escape after placing the centre cancels the circle and removes the centre point, unless something else already uses it.
 - The radius is only a starting size. Use [Dimension](dimension.md) on the circle to fix its diameter. Drag the rim with [Select](select.md) to resize it.
 - A closed circle makes a 2D surface you can extrude. Several circles that share a centre can take a gap dimension between their edges.
-- Select two circles to make them concentric (Shift+O) or equal (Shift+E). Select a circle and a line to make them tangent (Shift+T). The Properties panel lists every constraint that applies.
+- Select two circles to make them concentric (Shift+O) or equal (E). Select a circle and a line to make them tangent (Shift+T). The Properties panel lists every constraint that applies.
 - Circles go on the tag chosen in the [Tag selector](tag_selector.md).
 
 ## See also
